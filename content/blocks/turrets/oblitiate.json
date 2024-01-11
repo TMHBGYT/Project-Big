@@ -43,7 +43,7 @@ ammoTypes: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 10
-    reload: 140
+    reloadMultiplier: 0.5
     lightRadius:1
     inaccuracy: 2
   }
@@ -57,7 +57,7 @@ ammoTypes: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reload: 130
+    reloadMultiplier: 0.4
     frontColor: f7ae59
     backColor: f7ae59
     lightRadius:3
@@ -72,7 +72,7 @@ ammoTypes: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reload: 160
+    reloadMultiplier: 0.8
     lightRadius:4
     frontColor: 919fe7
     backColor: 7575c8
