@@ -10,8 +10,8 @@ recoil: 3
 ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 2
-range: 450
-lifetime: 100
+range: 250
+lifetime: 450
 shoot: {
    shots: 7
    spread: 0

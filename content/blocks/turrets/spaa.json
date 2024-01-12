@@ -9,7 +9,7 @@ reload:10
 ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 3
-range: 400
+range: 250
 drawer: {
   type: DrawTurret
   basePrefix: spaa-
@@ -24,7 +24,7 @@ drawer: {
         }
     ]
 }
-lifetime: 100
+lifetime: 400
 shoot: {
    type:shootAlternate
    shots: 2
