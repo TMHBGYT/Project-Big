@@ -1,18 +1,18 @@
 type: ItemTurret
-localizedName: Oblitiate SPAA
-description: a 1x1 turret that fires anti-air Coppper,graphite,Pyratite and Titanium rounds.
+localizedName: Intimate SPAA
+description: a 2x2 turret that fires anti-air Coppper,graphite,Pyratite and Titanium rounds.
 targetAir: true
 targetGround: false
-health: 50
-size: 1
-reload:10
+health: 150
+size: 2
+reload:8
 ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 3
-range: 250
+range: 300
 drawer: {
   type: DrawTurret
-  basePrefix: spaa-
+  basePrefix: intimate-spaa-
   parts: [
         {  
           type: RegionPart
@@ -28,7 +28,7 @@ lifetime: 400
 shoot: {
    type:shootAlternate
    shots: 2
-   spread: 2
+   spread: 5
    shotDelay: 0
 }
 "coolantMultiplier": 0.9,
@@ -39,8 +39,8 @@ shoot: {
   },
 ammoTypes: {
   copper: {
-    speed: 6
-	damage: 35
+    speed: 8
+	damage: 75
     width: 4
     height: 8
     shootEffect: shootBig
@@ -52,8 +52,8 @@ ammoTypes: {
 	lightRadius:2
   }
   graphite: {
-    speed: 6
-	damage: 45
+    speed: 8
+	damage: 110
     width: 4
 	height: 9
     shootEffect: shootBig
@@ -65,10 +65,10 @@ ammoTypes: {
 	lightRadius:1
   }
   pyratite: {
-    speed: 6
-	splashDamage: 20
-	splashDamageRadius: 30
-	damage: 10
+    speed: 8
+	splashDamage: 100
+	splashDamageRadius: 45
+	damage: 90
     width: 4
 	height: 8
     shootEffect: shootBig
@@ -84,14 +84,14 @@ ammoTypes: {
     status:burning
   }
   titanium: {
-    speed: 6
-	damage: 55
+    speed: 8
+	damage: 120
     width: 4
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 0.7
+    reloadMultiplier: 0.8
     lightRadius:4
     frontColor: 919fe7
     backColor: 7575c8
@@ -101,9 +101,11 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/80
-  titanium/20
+  copper/120
+  titanium/50
+  graphite/50
+  lead/25
 ]
 category: turret
-research: core-shard
+research: spaa
 shootSound: shootSnap

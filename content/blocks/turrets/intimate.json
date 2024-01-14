@@ -1,11 +1,11 @@
 type: ItemTurret
 localizedName: Intimate
-description: a 2x2 turret that fires in a burst of 7 with a short-long cool down depending on ammunition.An upgrade of the Oblitiate.
+description: a 2x2 turret that fires in a burst of 7.An upgrade of the Oblitiate.
 targetAir: false
 targetGround: true
 health: 270
 size: 2
-reload:50
+reload:35
 recoil: 3
 ammoUseEffect: casing3
 shootCone: 25
@@ -26,7 +26,7 @@ shoot: {
 ammoTypes: {
   copper: {
     speed: 6
-	damage: 15 
+	damage: 40 
     width: 7
     height: 9
     shootEffect: shootBig
@@ -38,8 +38,8 @@ ammoTypes: {
 	lightRadius:2
   }
   graphite: {
-    speed: 7
-	damage: 18
+    speed: 6
+	damage: 60
     width: 8
 	height: 10
     shootEffect: shootBig
@@ -51,10 +51,10 @@ ammoTypes: {
 	lightRadius:1
   }
   pyratite: {
-    speed: 5
-	splashDamage: 30
-	splashDamageRadius: 45
-	damage: 16
+    speed: 6
+	splashDamage: 35
+	splashDamageRadius: 55
+	damage: 65
     width: 7
 	height: 10
     shootEffect: shootBig
@@ -70,8 +70,8 @@ ammoTypes: {
     status:burning
   }
   titanium: {
-    speed: 8
-	damage: 25
+    speed: 6
+	damage: 75
     width: 7
 	height: 11
     shootEffect: shootBig

@@ -26,7 +26,7 @@ shoot: {
 ammoTypes: {
   copper: {
     speed: 6
-	damage: 8 
+	damage: 12
     width: 7
     height: 9
     shootEffect: shootBig
@@ -38,8 +38,8 @@ ammoTypes: {
 	lightRadius:2
   }
   graphite: {
-    speed: 7
-	damage: 12
+    speed: 6
+	damage: 19
     width: 8
 	height: 10
     shootEffect: shootBig
@@ -51,10 +51,10 @@ ammoTypes: {
 	lightRadius:1
   }
   pyratite: {
-    speed: 5
-	splashDamage: 10
+    speed: 6
+	splashDamage: 21
 	splashDamageRadius: 15
-	damage: 8
+	damage: 17
     width: 7
 	height: 10
     shootEffect: shootBig
@@ -70,8 +70,8 @@ ammoTypes: {
     status:burning
   }
   titanium: {
-    speed: 8
-	damage: 17
+    speed: 6
+	damage: 24
     width: 7
 	height: 11
     shootEffect: shootBig
