@@ -87,8 +87,8 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/80
-  titanium/20
+  titanium/80
+  copper/15
 ]
 category: turret
 research: core-shard

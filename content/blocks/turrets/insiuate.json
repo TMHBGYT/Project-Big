@@ -1,37 +1,33 @@
 type: ItemTurret
-localizedName: Intimate
-description: a 2x2 turret that fires in a burst of 7.An upgrade of the Oblitiate.
+localizedName: Insiuate
+description: a 1x1 turret that fires a high-ish damage single shot at ground targets.
 targetAir: false
 targetGround: true
-health: 270
-size: 2
-reload:35
-recoil: 3
+health: 20
+size: 1
+ammoUseMultiplier: 4
+reload:50
+recoil: 1
 ammoUseEffect: casing3
-shootCone: 25
-rotateSpeed: 2
-range: 250
-lifetime: 450
-shoot: {
-   shots: 7
-   spread: 0
-   shotDelay: 2
-}
-"coolantMultiplier": 0.7,
+shootCone: 5
+rotateSpeed: 1
+range: 200
+lifetime: 300
+"coolantMultiplier": 0.6,
   "consumes": {
     "coolant": {
-      "amount": 0.6
+      "amount": 0.3
     }
   },
 ammoTypes: {
   copper: {
     speed: 6
-	damage: 40 
+	damage: 45
     width: 7
     height: 9
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-	ammoMultiplier: 5
+	ammoMultiplier: 30
     reloadMultiplier: 1
 	trailLength: 1
 	trailWidth: 3
@@ -39,27 +35,27 @@ ammoTypes: {
   }
   graphite: {
     speed: 6
-	damage: 60
+	damage: 64
     width: 8
 	height: 10
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 3
-    reloadMultiplier: 0.4
+    ammoMultiplier: 10
+    reloadMultiplier: 0.7
     trailLength: 1
 	trailWidth: 3
 	lightRadius:1
   }
   pyratite: {
     speed: 6
-	splashDamage: 35
-	splashDamageRadius: 55
-	damage: 65
+	splashDamage: 40
+	splashDamageRadius: 15
+	damage: 40
     width: 7
 	height: 10
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 3
+    ammoMultiplier: 5
     reloadMultiplier: 0.5
     frontColor: f7ae59
     backColor: f7ae59
@@ -71,13 +67,13 @@ ammoTypes: {
   }
   titanium: {
     speed: 6
-	damage: 75
+	damage: 77
     width: 7
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 2
-    reloadMultiplier: 0.3
+    ammoMultiplier: 5
+    reloadMultiplier: 0.6
     lightRadius:4
     frontColor: 919fe7
     backColor: 7575c8
@@ -87,10 +83,9 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/50
-  titanium/130
-  lead/30
+  copper/60
+  titanium/10
 ]
 category: turret
-research: oblitiate
+research: core-shard
 shootSound: shootSnap
