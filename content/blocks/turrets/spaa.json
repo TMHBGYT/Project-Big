@@ -107,3 +107,4 @@ requirements: [
 category: turret
 research: core-shard
 shootSound: shootSnap
+researchCostMultiplier: 0.3
