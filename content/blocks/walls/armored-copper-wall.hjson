@@ -2,7 +2,8 @@ type: Wall
 name: Armored Copper Wall
 description: A Copper wall armored with Titanium.
 size: 1
-health: 450
+armor:2
+health: 360
 squareSprite: true
 requirements: [
   copper/4

@@ -2,7 +2,8 @@ type: Wall
 name: Armored Large Copper Wall
 description: A Copper wall armored with Titanium.A larger version of the smaller armored variant
 size: 2
-health: 1560
+health: 1260
+armor:4
 category: defense
 squareSprite: true
 research: armored-copper-wall

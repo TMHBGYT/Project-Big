@@ -10,20 +10,6 @@ ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 3
 range: 300
-drawer: {
-  type: DrawTurret
-  basePrefix: intimate-spaa-
-  parts: [
-        {  
-          type: RegionPart
-          suffix: -barrel
-          mirror: true
-          under: false
-          progress: recoil
-          moveY: -1.9
-        }
-    ]
-}
 lifetime: 400
 shoot: {
    type:shootAlternate
@@ -109,4 +95,3 @@ requirements: [
 category: turret
 research: spaa
 shootSound: shootSnap
-researchCostMultiplier: 0.3
