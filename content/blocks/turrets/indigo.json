@@ -1,12 +1,12 @@
 type: ItemTurret
-localizedName: Insiuate
-description: a 1x1 turret that fires a high-ish damage single shot at ground targets.
+localizedName: Indigo
+description: a 2x2 turret that fires a high damage single shot at ground targets.
 targetAir: false
 targetGround: true
-health: 20
-size: 1
+health: 75
+size: 2
 ammoUseMultiplier: 4
-reload:26
+reload:35
 recoil: 1
 ammoUseEffect: casing3
 shootCone: 5
@@ -22,7 +22,7 @@ lifetime: 300
 ammoTypes: {
   copper: {
     speed: 6
-	damage: 45
+	damage: 80
     width: 7
     height: 9
     shootEffect: shootBig
@@ -35,7 +35,7 @@ ammoTypes: {
   }
   graphite: {
     speed: 6
-	damage: 64
+	damage: 94
     width: 8
 	height: 10
     shootEffect: shootBig
@@ -48,15 +48,15 @@ ammoTypes: {
   }
   pyratite: {
     speed: 6
-	splashDamage: 40
-	splashDamageRadius: 15
-	damage: 40
+	splashDamage: 45
+	splashDamageRadius: 17
+	damage: 60
     width: 7
 	height: 10
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.6
     frontColor: f7ae59
     backColor: f7ae59
     trailColor: f7ae59
@@ -67,13 +67,13 @@ ammoTypes: {
   }
   titanium: {
     speed: 6
-	damage: 77
+	damage: 105
     width: 7
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.5
     lightRadius:4
     frontColor: 919fe7
     backColor: 7575c8
@@ -83,8 +83,9 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/60
-  titanium/10
+  copper/140
+  titanium/30
+  silicon/10
 ]
 category: turret
 research: core-shard

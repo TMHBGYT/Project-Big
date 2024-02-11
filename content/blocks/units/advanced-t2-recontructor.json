@@ -1,0 +1,33 @@
+ {
+  "name": "Advanced T2 Reconstructor",
+  "type": "Reconstructor",
+  "researchCostMultiplier": 0.3,
+  "size": 3,
+  "constructTime": 2030,
+  "consumes": {
+    "power": 3.2,
+    "items": {
+      "items": [
+        "titanium/40",
+        "copper/90",
+        "silicon/45",
+      ]
+    }
+  },
+  "requirements": [
+    "copper/120",
+    "silicon/25"  
+  ],
+  "upgrades": [
+    [
+      "nuli",
+      "lipo"
+    ],
+    [
+      "kiki",
+      "diamond"
+    ]
+  ],
+  "category": "units",
+  "research": "advanced-unit-factory"
+}

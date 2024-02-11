@@ -1,0 +1,54 @@
+type: ItemTurret
+localizedName: Nuke Launcher
+description: Launches a "nuke" towards large groups of ground targets and enemy fortifications.
+targetAir: false
+targetGround: true
+health: 90
+armor: 3
+size: 3
+ammoUseMultiplier: 4
+reload:750
+recoil: 0
+ammoUseEffect: casing3
+shootCone: 5
+rotateSpeed: 1
+range: 1200
+"coolantMultiplier": 0.6,
+  "consumes": {
+    "coolant": {
+      "amount": 0.3
+    }
+  },
+ammoTypes: {
+  surge-alloy: {
+    type:MissileBulletType
+	spawnUnit:nuke-missile
+	speed: 11
+    splashDamage:8200
+	splashDamageRadius:1550
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    fragBullets: 24
+    fragLifeMin: 0.8
+    fragBullet: {
+     splashDamage:4200
+	 splashDamageRadius:850
+     speed: 6
+     lifetime: 120
+     height: 9
+     width: 9
+     frontColor: eff2ac
+     backColor: cedb84
+    }
+  }
+}
+requirements: [
+  copper/950
+  surge-alloy/ 175
+  thorium/325
+  titanium/500
+  silicon/750
+]
+category: turret
+research: core-shard
+shootSound: shootSnap

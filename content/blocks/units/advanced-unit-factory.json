@@ -1,0 +1,36 @@
+{
+ "name": "Advanced Unit Factory",
+ "type": "UnitFactory",
+  "researchCostMultiplier": 0.3,
+  "size": 3,
+  "consumes": {
+    "power": 1.8
+  },
+  "plans": [
+    {
+      "unit": "nuli",
+      "requirements": [
+        "silicon/15"
+        "titanium/5"
+	    "copper/30"
+	  ],
+      "time": 1250
+    }
+    {
+      "unit": "kiki",
+      "requirements": [
+        "silicon/10"
+        "lead/5"
+	    "titanium/5"
+	  ],
+      "time": 1050
+    }
+  ],
+  "category": "units",
+  "research": "core-shard"
+  "requirements": [
+    "silicon/60",
+    "copper/80",
+    "titanium/35"
+  ]
+}

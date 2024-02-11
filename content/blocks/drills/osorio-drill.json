@@ -1,0 +1,29 @@
+{
+  "name": "Osorio Drill",
+  "description": "A decent 2x2 drill capable of mining thorium.Its a bit expensive tho.....",
+  "type": "Drill",
+  "size": 2,
+  "tier": 4,
+  "drillTime": 145,
+  "alwaysUnlocked": false,
+  "requirements": [
+    {
+      "item": "titanium",
+      "amount": 20
+    } 
+    {
+      "item": "metaglass",
+      "amount": 10
+    }
+    {
+      "item": "silicon",
+      "amount": 5
+    } 
+    {
+      "item": "graphite",
+      "amount": 5
+    }
+  ],
+  "category": "production",
+  "research": "core-shard"
+}
