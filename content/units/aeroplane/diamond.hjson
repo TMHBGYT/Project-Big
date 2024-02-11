@@ -1,0 +1,61 @@
+type: flying
+name: Diamond
+description: A support unit that is used in support of light combat,healing allies and assisting the player.
+commands: [move, repair, rebuild, assist]
+mineSpeed: 3.9
+mineTier: 3
+buildSpeed: 2.4
+speed: 3.6
+accel: 0.234
+drag: 0.0345
+health: 250
+alwaysUnlocked: false
+itemCapacity: 75
+rotateSpeed: 6
+hitSize: 7
+armor: 3
+engineOffset: 0
+flying: true
+faceTarget: true
+weapons: [
+    {
+      name: diamond-weapon
+      reload: 35
+      x: 3
+      y: 2
+      top: true
+      rotate: true
+      inaccuracy: 0
+      shootY: 3
+      ejectEffect: casing2
+      shootSound: missile
+      bullet: {
+        type: MissileBulletType
+        damage: 13
+        splashDamageRadius: 5
+		splashDamage: 5
+		speed:  7
+        width: 3
+        height: 5
+        weaveScale: 9
+		weaveMag: 1
+		shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+		lifetime: 75
+        healPercent: 7
+	    frontColor: 84f491
+        backColor: 84f491
+	    collidesTeam: true
+	  }
+    }    
+  ]
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 35
+    max: 80
+    reload: 140
+    range: 230
+  }
+]
+research: advanced-t2-recontructor

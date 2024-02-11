@@ -22,7 +22,7 @@ weapons: [
     y: -3
     name: nuli-weapon
     reload: 23
-    rotate: false
+    rotate: true
     shootSound: artillery
     alternate:true
 	inaccuracy: 0
@@ -32,7 +32,8 @@ weapons: [
      damage: 34
      sapStrength: 0.25
      status: sapped
+     color:bf92f9
 	}
   }
 ]
-research: advanced-ground-factory
+research: advanced-unit-factory
