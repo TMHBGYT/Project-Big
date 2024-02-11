@@ -1,0 +1,7 @@
+name: Suagine
+description: A liquid used as a coolant for turrets.Made with mixed water and surge.Very thermally conductive.but also very cold. 
+boilPoint: 0.2
+heatCapacity: 2.9
+color: C8CE60
+gasColor: A1A55D
+research: water
