@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Suagine Synthesizer
-description: Used as coolant for turrets. Created by mixing Water and Surge Alloy. Highly conductive and extremely cold. 
+description: Used as coolant for turrets. Created by mixing Water and Nitrace. Highly conductive and extremely cold. 
 size: 3
 drawer: {
   type: DrawMulti
@@ -28,15 +28,16 @@ craftEffect: {
 }
 consumes: {
   items: [
-    surge-alloy/2
+    nitrace/2
   ]
   liquid: water/0.5
 }
-craftTime: 120
+craftTime: 65
 outputLiquid: suagine/0.3
 category: crafting
-research: core-shard
+research: core-hina
+researchCostMultiplier: 0.4
 requirements: [
-  titanium/35
-  surge-alloy/12
+  pionide/35
+  nitrace/12
 ]

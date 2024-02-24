@@ -1,0 +1,13 @@
+{
+	"type": "battery",
+	"name": "Dam Cell",
+  "description": "A 1X1 Cell made of damiud.More powerful than the Pio Cell.",
+	"size": 1,
+	"health": 85,
+	"category": "power",
+	"requirements": [
+		{"item": "damiud", "amount": 35}
+	],
+	"consumes": { "powerBuffered": 75000 },
+	"research": "pio-cell"
+}

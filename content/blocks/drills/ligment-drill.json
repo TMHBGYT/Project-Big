@@ -1,0 +1,17 @@
+{
+  "name": "Ligment Drill",
+  "description": "A 1x1 drill made of pionide",
+  "type": "Drill",
+  "size": 1,
+  "tier": 1,
+  "drillTime": 630,
+  "alwaysUnlocked": false,
+  "requirements": [
+    {
+      "item": "pionide",
+      "amount": 9
+    } 
+  ],
+  "category": "production",
+  "research": "core-hina"
+}

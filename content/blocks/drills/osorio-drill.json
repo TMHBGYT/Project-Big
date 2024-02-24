@@ -1,29 +1,21 @@
 {
   "name": "Osorio Drill",
-  "description": "A decent 2x2 drill capable of mining thorium.Its a bit expensive tho.....",
+  "description": "A 2x2 drill made of pionide and damiud",
   "type": "Drill",
   "size": 2,
-  "tier": 4,
-  "drillTime": 145,
+  "tier": 3,
+  "drillTime": 345,
   "alwaysUnlocked": false,
   "requirements": [
     {
-      "item": "titanium",
-      "amount": 20
+      "item": "pionide",
+      "amount": 16
     } 
     {
-      "item": "metaglass",
-      "amount": 10
-    }
-    {
-      "item": "silicon",
-      "amount": 5
-    } 
-    {
-      "item": "graphite",
-      "amount": 5
+      "item": "damiud",
+      "amount": 9
     }
   ],
   "category": "production",
-  "research": "core-shard"
+  "research": "ligment-drill"
 }

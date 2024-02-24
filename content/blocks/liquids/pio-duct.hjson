@@ -1,0 +1,14 @@
+type: Conduit
+name: Pio duct
+description: Transports liquids forward.
+category: liquid
+research: generic-pump
+requirements: [
+  pionide/1
+]
+health: 35
+leaks: false
+junctionReplacement: pio-duct-junction
+bridgeReplacement: pio-duct-bridge
+underBullets: true
+researchCostMultiplier: 0.5

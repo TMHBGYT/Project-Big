@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Brifron Furnace
+description: Burns down Pionide to produce Brifron. 
+size: 2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      suffix: -top
+    }
+  ]
+}  
+craftEffect: {
+  type: ParticleEffect
+  particles: 6
+  length: 8
+  lifetime: 35
+  colorTo: ff8900
+}
+consumes: {
+  items: [
+    pionide/2
+  ]
+}
+craftTime: 55
+outputItem: brifron/1
+category: crafting
+research: core-hina
+researchCostMultiplier: 0.4
+requirements: [
+  pionide/35
+  nitrace/12
+]

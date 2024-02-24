@@ -1,0 +1,8 @@
+localizedName: Ino
+description: You have landed on a unknown planet,Its full of Enemy troops! Teach the Crux that Sharded is the best.
+captureWave: 10
+planet: ingenuty
+sector: 0
+research: core-hina
+difficulty: 1
+alwaysUnlocked: true

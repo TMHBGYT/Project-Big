@@ -1,0 +1,10 @@
+name: Nitrace
+description: A material used for production blocks and some turrets.
+hardness: 2
+flammability: 0.1
+explosiveness: 0
+research:  damiud
+cost: 0.8
+charge: 0.1
+color: cf9991
+hiddenOnPlanets: [serpulo, erekir]

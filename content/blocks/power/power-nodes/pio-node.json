@@ -1,0 +1,14 @@
+{
+  "type": "PowerNode",
+  "name": "Pio Node",
+  "description": "A Power node used in the transmission of power.",
+  "size": 1,
+  "health": 60,
+  "laserRange": 7,
+  "maxNodes": 12,
+  "requirements": [
+    "pionide/1"
+  ],
+  "category": "power",
+  "research": "core-hina"
+}

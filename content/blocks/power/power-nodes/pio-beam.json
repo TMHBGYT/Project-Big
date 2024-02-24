@@ -1,0 +1,14 @@
+{
+  "type": "BeamNode",
+  "name": "Pio Beam",
+  "description": "A beam Node used in the transmission of power.Can store some bits of power.",
+  "size": 1,
+  "health": 80,
+  "laserWidth": 0.5,
+  "range": 12,
+  "requirements": [
+    "pionide/5"
+  ],
+  "category": "power",
+  "research": "pio-node"
+}

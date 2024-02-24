@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Damiud",
+  "itemDrop": "damiud",
+  "hasColor": true,
+  "mapColor": "A97C7C",
+  "variants": 1
+}

@@ -1,0 +1,23 @@
+type: CoreBlock
+name: Core: Hina
+description: The main Inguas core,Lightly armored and can store an okay amount of items.
+requirements: [
+  pionide/1350
+  damiud/930
+]
+isFirstTier: true
+size: 3
+squareSprite: true
+alwaysUnlocked: true
+unitType: xeon
+armor: 1
+health: 1050
+itemCapacity: 4500
+unitCapModifier: 12
+category: effect
+research: {
+  planet: ingenuty
+  root: true
+  name: Ingenuty
+  requiresUnlock: false
+}

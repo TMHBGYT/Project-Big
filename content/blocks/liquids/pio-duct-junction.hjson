@@ -1,0 +1,13 @@
+type: LiquidJunction
+name: Pio duct junction
+description: Used for crossing serveral ducts.
+solid: false
+category: liquid
+squareSprite:true
+research: pio-duct
+requirements: [
+  pionide/3
+]
+conductivePower: true
+hasPower: true
+researchCostMultiplier: 0.5

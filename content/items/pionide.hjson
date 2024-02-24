@@ -1,0 +1,8 @@
+name: Pionide
+description: A hard,but easy to bend steel like material.Used in basic buildings.
+hardness: 0.8
+cost: 0.5
+alwaysUnlocked: true
+color: 8f8d87
+research: core-hina
+hiddenOnPlanets: [serpulo, erekir]

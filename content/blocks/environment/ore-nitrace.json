@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Nitrace",
+  "itemDrop": "nitrace",
+  "hasColor": true,
+  "mapColor": "579196",
+  "variants": 1
+}

@@ -24,73 +24,35 @@ shoot: {
     }
   },
 ammoTypes: {
-  copper: {
+  pionide: {
     speed: 6
-	damage: 40 
-    width: 7
-    height: 9
+	damage: 24
+    width: 4
+	height: 8
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-	ammoMultiplier: 5
+    ammoMultiplier: 5
     reloadMultiplier: 1
-	trailLength: 1
-	trailWidth: 3
-	lightRadius:2
-  }
-  graphite: {
-    speed: 6
-	damage: 60
-    width: 8
-	height: 10
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 3
-    reloadMultiplier: 0.4
-    trailLength: 1
-	trailWidth: 3
-	lightRadius:1
-  }
-  pyratite: {
-    speed: 6
-	splashDamage: 35
-	splashDamageRadius: 55
-	damage: 65
-    width: 7
-	height: 10
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 3
-    reloadMultiplier: 0.5
-    frontColor: f7ae59
-    backColor: f7ae59
-    trailColor: f7ae59
-    trailLength: 1
-	trailWidth: 3
 	lightRadius:3
-    status:burning
   }
-  titanium: {
+  damiud: {
     speed: 6
-	damage: 75
-    width: 7
+	damage: 45
+    width: 4
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 2
-    reloadMultiplier: 0.3
+    ammoMultiplier: 5
+    reloadMultiplier: 0.5
     lightRadius:4
-    frontColor: 919fe7
-    backColor: 7575c8
-    trailColor: a4b8fa
-    trailLength: 1
-	trailWidth: 3
   }
 }
 requirements: [
-  copper/50
-  titanium/130
-  lead/30
+  pionide/75
+  nitrace/30
+  damiud/15
 ]
 category: turret
 research: oblitiate
 shootSound: shootSnap
+researchCostMultiplier: 0.4

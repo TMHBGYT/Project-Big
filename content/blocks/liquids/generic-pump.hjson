@@ -1,0 +1,13 @@
+type: Pump
+name: Generic Pump
+description: Pumps liquids at a decent pace.
+size: 2
+category: liquid
+squareSprite: false
+research: core-hina
+requirements: [
+  pionide/20
+  nitrace/14
+]
+pumpAmount: 0.4
+researchCostMultiplier: 0.5

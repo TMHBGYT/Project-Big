@@ -1,0 +1,13 @@
+{
+	"type": "battery",
+	"name": "Pio Cell",
+  "description": "A 1X1 battery,stores an okay amount of power.",
+	"size": 1,
+	"health": 75,
+	"category": "power",
+	"requirements": [
+		{"item": "pionide", "amount": 25}
+	],
+	"consumes": { "powerBuffered": 50000 },
+	"research": "pionide-reactor"
+}

@@ -10,27 +10,26 @@
     {
       "unit": "nuli",
       "requirements": [
-        "silicon/15"
-        "titanium/5"
-	    "copper/30"
+        "nitrace/15"
+        "damiud/5"
+	    "pionide/30"
 	  ],
       "time": 1250
     }
     {
       "unit": "kiki",
       "requirements": [
-        "silicon/10"
-        "lead/5"
-	    "titanium/5"
+        "nitrace/10"
+	    "damiud/5"
 	  ],
       "time": 1050
     }
   ],
   "category": "units",
-  "research": "core-shard"
+  "research": "core-hina"
   "requirements": [
-    "silicon/60",
-    "copper/80",
-    "titanium/35"
+    "nitrace/60",
+    "pionide/80",
+    "damiud/35"
   ]
 }

@@ -1,0 +1,13 @@
+type: Wall
+name: Pionide wall
+description: A basic 1x1 wall made with pionide.
+size: 1
+armor: 0
+health: 420
+squareSprite: true
+requirements: [
+  pionide/5
+]
+research: core-hina
+category: defense
+researchCostMultiplier: 0.5

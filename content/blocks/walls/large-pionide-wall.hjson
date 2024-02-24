@@ -1,0 +1,13 @@
+type: Wall
+name: Large Pionide wall
+description: A basic large wall made of Pionide.
+size: 2
+health: 1680
+armor: 0
+category: defense
+squareSprite: true
+research: pionide-wall
+requirements: [
+  pionide/20
+] 
+researchCostMultiplier: 0.5

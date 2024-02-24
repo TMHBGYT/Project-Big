@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Pionide",
+  "itemDrop": "pionide",
+  "hasColor": true,
+  "mapColor": "76846A",
+  "variants": 1
+}

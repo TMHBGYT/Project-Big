@@ -1,0 +1,39 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Combustion Camber",
+  "description": "Uses Brifron to produce power.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 125,
+  "powerProduction": 6,
+  consumes: {
+    items: [
+     brifron/3
+    ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawArcSmelt
+      suffix: -top
+    }
+  ]
+}  
+"requirements": [
+    {
+      "item": "pionide",
+      "amount": 75
+    },
+    {
+      "item": "damiud",
+      "amount": 25
+    }
+  ],
+  "category": "power",
+  "research": "pio-beam"
+}

@@ -1,0 +1,46 @@
+type: legs
+legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.7
+hovering: true
+groundLayer: 60
+name: Xeon
+description: The main core unit of Core Hina.
+health: 135
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 1.2
+hitSize: 6
+isEnemy: false
+mineSpeed: 4.5
+mineTier: 1
+buildSpeed: 0.4
+drag: 0.4
+itemCapacity: 20
+alwaysUnlocked: true
+outlineColor: 42413e
+weapons: [
+  {
+    name: xeon-weapon
+    x: 5
+    y: -1
+    mirror: true
+	reload: 32
+    ejectEffect: casing1
+    bullet: {
+      homingPower: 0.0923
+      type: BasicBulletType
+      speed: 3
+      damage: 20
+      lifetime: 60
+      width: 7
+      height: 12
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+    }
+  }
+]

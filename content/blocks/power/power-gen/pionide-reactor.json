@@ -1,0 +1,56 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Pionide Reactor",
+  "description": "Melts Pionide and cools down with Water to make power.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 60,
+  "powerProduction": 8,
+  consumes: {
+    items: [
+     pionide/2
+    ]
+  liquid: water/0.5
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    } 
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawCrucibleFlame
+      suffix: -top
+    }
+  ]
+}  
+  "requirements": [
+    {
+      "item": "pionide",
+      "amount": 100
+    },
+    {
+      "item": "damiud",
+      "amount": 50
+    },
+    {
+      "item": "nitrace",
+      "amount": 20
+    }
+  ],
+  "category": "power",
+  "research": "pio-node"
+}

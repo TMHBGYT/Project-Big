@@ -1,0 +1,32 @@
+type: LiquidRouter
+name: Pio duct router
+description: Distributes Ducts in 3 separate paths.
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 20
+category: liquid
+squareSprite: true
+research: pio-duct-junction
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}  
+requirements: [
+  pionide/2
+]
+researchCostMultiplier: 0.5

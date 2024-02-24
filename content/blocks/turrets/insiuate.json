@@ -20,72 +20,34 @@ lifetime: 300
     }
   },
 ammoTypes: {
-  copper: {
+  pionide: {
     speed: 6
-	damage: 45
-    width: 7
-    height: 9
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-	ammoMultiplier: 30
-    reloadMultiplier: 1
-	trailLength: 1
-	trailWidth: 3
-	lightRadius:2
-  }
-  graphite: {
-    speed: 6
-	damage: 64
-    width: 8
-	height: 10
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 10
-    reloadMultiplier: 0.7
-    trailLength: 1
-	trailWidth: 3
-	lightRadius:1
-  }
-  pyratite: {
-    speed: 6
-	splashDamage: 40
-	splashDamageRadius: 15
-	damage: 40
-    width: 7
-	height: 10
+	damage: 46
+    width: 4
+	height: 8
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 0.5
-    frontColor: f7ae59
-    backColor: f7ae59
-    trailColor: f7ae59
-    trailLength: 1
-	trailWidth: 3
+    reloadMultiplier: 1
 	lightRadius:3
-    status:burning
   }
-  titanium: {
+  damiud: {
     speed: 6
-	damage: 77
-    width: 7
+	damage: 74
+    width: 4
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.7
     lightRadius:4
-    frontColor: 919fe7
-    backColor: 7575c8
-    trailColor: a4b8fa
-    trailLength: 1
-	trailWidth: 3
   }
 }
 requirements: [
-  copper/60
-  titanium/10
+  pionide/70
+  damiud/20
 ]
 category: turret
-research: core-shard
+research: oblitiate
 shootSound: shootSnap
+researchCostMultiplier: 0.4

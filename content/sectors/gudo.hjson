@@ -1,0 +1,15 @@
+localizedName: Gudo
+description: You found and enemy outpost,destroy it and claim victory!
+planet: ingenuty
+sector: 4
+research: {
+  parent: ino
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ino
+    }
+  ]
+}
+
+difficulty: 2
