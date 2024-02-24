@@ -1,6 +1,7 @@
-name: project big
-displayName:Project Big
+name: project big unstable
+displayName:Project Big Untable
 author: TMHBG
-description:A mod i built from the ground up with the help of some friends,and some others!
-version: 2.0.0 (MEGA UPDATE!!)
+description:An unstable release of Project Big
+version: 2.1.0 The Planets Update | CAUTION NON STABLE!!! |
 minGameVersion: 143
+hidden: false
