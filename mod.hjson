@@ -1,7 +1,7 @@
-name: project big unstable
-displayName:Project Big Untable
+name: project big
+displayName:Project Big
 author: TMHBG
-description:An unstable release of Project Big
-version: 2.1.0 The Planets Update | CAUTION NON STABLE!!! |
+description:A mindustry mod
+version: 2.1.1 | Bug fix |
 minGameVersion: 143
 hidden: false
