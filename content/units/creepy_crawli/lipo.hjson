@@ -2,8 +2,8 @@ type: legs
 name: Lipo
 description: A tier two Spider unit meant for attacks.Recommend using it in high numbers.Made with the base of a Spricot.
 speed: 0.4
-health: 420
-armor: 5
+health: 320
+armor: 4
 flying: false
 legExtension: -2.6
 legMoveSpace: 1.6
@@ -21,16 +21,16 @@ weapons: [
     x: 7
     y: -2
     name: lipo-weapon
-    reload: 32
+    reload: 45
     rotate: false
     shootSound: missile
     alternate:true
-	inaccuracy: 2
+	inaccuracy: 5
 	bullet: {
      type: SapBulletType
-     length: 195
-     damage: 55
-     sapStrength: 0.30
+     length: 55
+     damage: 36
+     sapStrength: 0.15
      status: sapped
 	 color:bf92f9
 	}

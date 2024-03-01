@@ -1,9 +1,9 @@
 type: legs
 name: Nuli
 description: A tier one Spider unit meant for attacks.
-speed: 0.5
-health: 275
-armor: 2
+speed: 0.4
+health: 235
+armor: 1
 flying: false
 legExtension: -2.3
 legMoveSpace: 0.9
@@ -21,16 +21,16 @@ weapons: [
   x: 5
     y: -3
     name: nuli-weapon
-    reload: 23
+    reload: 39
     rotate: true
     shootSound: artillery
     alternate:true
-	inaccuracy: 0
+	inaccuracy: 6
 	bullet: {
      type: SapBulletType
-     length: 230
-     damage: 34
-     sapStrength: 0.25
+     length: 95
+     damage: 26
+     sapStrength: 0.10
      status: sapped
      color:bf92f9
 	}
