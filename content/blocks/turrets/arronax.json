@@ -1,0 +1,78 @@
+type: ItemTurret
+localizedName: Arronax
+description: A 3x3 turret that shoots in bursts of 2.
+targetAir: true
+targetGround: true
+health: 510
+size: 3
+reload: 65
+recoil: 3
+ammoUseEffect: casing3
+shootCone: 5
+rotateSpeed: 3
+range: 250
+lifetime: 450
+shoot: {
+   shots: 2
+   spread: 0
+   shotDelay: 2
+}
+"coolantMultiplier": 0.9,
+  "consumes": {
+    "coolant": {
+      "amount": 0.9
+    }
+  },
+ammoTypes: {
+  brifron: {
+    speed: 6
+	damage: 48
+    status: burning
+	width: 11
+	height: 15
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    reloadMultiplier: 0.7
+	lightRadius:3
+    fragBullets: 9
+    fragLifeMin: 0.6
+    fragBullet: {
+      damage: 16
+      speed: 3
+      lifetime: 12
+      height: 8
+      width: 8
+      status: burning
+    }
+  }
+  nitrace: {
+    speed: 6
+	damage: 79
+    width: 11
+	height: 17
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    reloadMultiplier: 1
+    lightRadius:4
+    fragBullets: 6
+    fragLifeMin: 0.4
+    fragBullet: {
+      damage: 10
+      speed: 1
+      lifetime: 5
+      height: 7
+      width: 7
+    }
+  }
+}
+requirements: [
+  pionide/125
+  nitrace/55
+  damiud/40
+]
+category: turret
+research: intimate
+shootSound: shootBig
+researchCostMultiplier: 0.3
