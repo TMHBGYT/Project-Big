@@ -12,6 +12,26 @@ shootCone: 5
 rotateSpeed: 3
 range: 250
 lifetime: 450
+drawer: {
+  type: DrawTurret
+  basePrefix: -base
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -3
+      mirror: false
+      under: false
+    }
+    {
+      type: RegionPart
+      suffix: -wing
+      mirror: true
+      under: false
+    }
+  ]
+}
 shoot: {
    shots: 2
    spread: 0
