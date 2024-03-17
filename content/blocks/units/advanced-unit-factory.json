@@ -10,9 +10,9 @@
     {
       "unit": "nuli",
       "requirements": [
-        "nitrace/15"
+        "nitrace/10"
         "damiud/5"
-	    "pionide/30"
+	    "pionide/25"
 	  ],
       "time": 1100
     }
@@ -28,7 +28,7 @@
       "unit": "mischa",
       "requirements": [
         "pionide/35"
-	    "damiud/10"
+	    "nitrace/15"
 	  ],
       "time": 1150
     },
@@ -45,7 +45,6 @@
   "research": "core-hina"
   "requirements": [
     "nitrace/60",
-    "pionide/80",
-    "damiud/35"
+    "pionide/80"
   ]
 }

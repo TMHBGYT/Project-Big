@@ -1,0 +1,8 @@
+name: Exodium
+description: A material commonly used as an "upgrader".
+hardness: 0.4
+flammability: 0
+cost: 0.5
+research: brifron
+color: FFEDE5
+hiddenOnPlanets: [serpulo, erekir]
