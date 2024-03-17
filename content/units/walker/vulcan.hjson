@@ -1,0 +1,50 @@
+type: mech
+name: Vulcan
+description: Fires heavy,piercing,fraging artilery barrages of bullets.Is able to boost itself over terrain.
+speed: 0.5
+flying: false
+canBoost: false
+health: 457
+hitSize: 24
+canBoost: true
+armor: 3
+outlineColor: 44413c
+mechLegColor: 44413c
+  weapons: [
+    {
+      x: 8
+      name: vulcan-weapon
+        y: 3
+        reload: 46
+        rotate: false
+        mirror: true
+        alternate: true
+        shootSound: shootBig
+        top: false
+		"ejectEffect": "casing2",
+		"bullet": {
+            "type": "ArtilleryBulletType",
+            "damage": 46,
+            splashDamage: 26
+			splashDamageRadius: 17
+			"width": 9,
+            "height": 10,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootSmallSmoke",
+            speed: 4
+			"lifetime": 45
+            fragBullets: 4
+            fragLifeMin: 0.6
+            fragBullet: {
+			damage: 8
+            splashDamage: 13
+			splashDamageRadius: 12
+			speed: 3
+            lifetime: 12
+            height: 8
+            width: 8
+           }
+		} 
+    }			
+]
+research: advanced-t2-recontructor

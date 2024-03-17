@@ -6,13 +6,13 @@ targetGround: true
 health: 75
 size: 2
 ammoUseMultiplier: 4
-reload:35
+reload:39
 recoil: 1
 ammoUseEffect: casing3
 shootCone: 5
 rotateSpeed: 1
-range: 200
-lifetime: 300
+range: 160
+lifetime: 240
 "coolantMultiplier": 0.6,
   "consumes": {
     "coolant": {
@@ -22,7 +22,7 @@ lifetime: 300
 ammoTypes: {
   pionide: {
     speed: 6
-	damage: 85
+	damage: 56
     width: 4
 	height: 8
     shootEffect: shootBig
@@ -33,7 +33,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 140
+	damage: 97
     width: 4
 	height: 11
     shootEffect: shootBig
@@ -51,4 +51,4 @@ requirements: [
 category: turret
 research: insiuate
 shootSound: shootSnap
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2

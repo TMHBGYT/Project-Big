@@ -1,0 +1,15 @@
+type: Duct
+name: Damiud Duct
+description: Transport items through a sealed network.
+category: distribution
+alwaysUnlocked: false
+research: pionide-conveyor
+researchCost: [
+  damiud/10
+]
+speed: 8
+health: 45
+bridgeReplacement: pionide-bridge
+requirements: [
+  damiud/1
+]

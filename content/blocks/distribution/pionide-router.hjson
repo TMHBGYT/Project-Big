@@ -1,0 +1,14 @@
+type: Router
+name: Pionide Router
+description: Allows for 3 different paths to be formed from one.
+size: 1
+speed: 7
+health: 75
+itemCapacity: 5
+requirements: [
+  pionide/4
+]
+squareSprite: true
+category: distribution
+research: pionide-junction
+researchCostMultiplier: 0.5

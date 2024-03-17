@@ -21,8 +21,8 @@ mesh: [
     divisions: 8
     radius: 0.55
     seed: 94
-    color1: e9e9de
-    color2: c2c1b4
+    color1: 919191
+    color2: 808080
     octaves: 3.7
     persistence: 0.6
   }
@@ -32,8 +32,8 @@ mesh: [
     planet: ingenuty
     seed: 69
     divisions: 5
-    color1: d5c995
-    color2: 666359
+    color1: 5F5F5F
+    color2: A7A7A7
     radius: 1.212
     octaves: 4
     persistence: 1
@@ -76,7 +76,7 @@ bloom: false
 visible: true
 atmosphereColor: 666359
 iconColor: 666359
-hasAtmosphere: false
+hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
@@ -89,5 +89,6 @@ itemWhitelist: [
   "brifron",
   "nitrace", 
   "damiud", 
-  "pionide"
+  "pionide",
+  "damiud-fragment"
 ]

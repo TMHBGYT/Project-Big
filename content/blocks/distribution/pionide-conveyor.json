@@ -3,7 +3,7 @@
     "name": "Pionide Conveyor",
     "description": "A normal stack Conveyor",
     "category": "distribution",
-    "alwaysUnlocked": false,
+    "alwaysUnlocked": true,
 	"health": 35,
     "speed": 0.10,
     "requirements": [

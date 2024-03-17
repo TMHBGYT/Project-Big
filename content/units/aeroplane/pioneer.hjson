@@ -1,0 +1,40 @@
+type: flying
+name: Pioneer
+description: A small,fast and agile air attack/defense unit.
+speed: 3.4
+accel: 0.1
+drag: 0.0625
+health: 155
+alwaysUnlocked: false
+itemCapacity: 15
+rotateSpeed: 4
+hitSize: 7
+armor: 3
+engineOffset: 0
+flying: true
+faceTarget: true
+weapons: [
+    {
+      name: pioneer-gun
+      reload: 23
+      x: 3
+      y: 2
+      top: false
+      rotate: false
+      inaccuracy: 1
+      shootY: 3
+      ejectEffect: casing2
+      shootSound: shootSnap
+      bullet: {
+        type: BasicBulletType
+        damage: 22
+        speed:  6
+        width: 5
+        height: 9
+		shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+		lifetime: 19
+	  }
+    }    
+  ]
+research: advanced-unit-factory

@@ -41,7 +41,7 @@ weapons: [
 		weaveMag: 1
 		shootEffect: shootSmall
         smokeEffect: shootSmallSmoke
-		lifetime: 75
+		lifetime: 25
         healPercent: 7
 	    frontColor: 84f491
         backColor: 84f491

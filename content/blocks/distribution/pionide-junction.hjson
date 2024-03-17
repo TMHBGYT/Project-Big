@@ -1,0 +1,13 @@
+type: Junction
+name: Pionide Junction
+description: A cross between two conveyors.
+health: 75
+size: 1
+speed: 26
+requirements: [
+  pionide/2
+]
+squareSprite: true
+category: distribution
+research: pionide-conveyor
+researchCostMultiplier: 0.5

@@ -1,0 +1,17 @@
+type: ItemBridge
+name: Ferrinite Pionide Brigde
+description: A literal item bridge.
+health: 135
+size: 1
+requirements: [
+  pionide/4
+  damiud/2
+] 
+category: distribution
+research: pionide-junction
+squareSprite: true
+range: 5
+speed: 5
+arrowSpacing: 6
+bufferCapacity: 10
+researchCostMultiplier: 0.5

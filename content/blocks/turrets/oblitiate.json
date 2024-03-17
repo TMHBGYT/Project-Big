@@ -1,19 +1,19 @@
 type: ItemTurret
 localizedName: Oblitiate
-description: a 1x1 turret that fires in a burst of 5 with a short-long cool down depending on ammunition.
+description: a 1x1 turret that fires in a burst of 2 with a short-long cool down depending on ammunition.
 targetAir: false
 targetGround: true
 health: 150
 size: 1
-reload:50
+reload:35
 recoil: 3
 ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 1
-range: 250
-lifetime: 350
+range: 130
+lifetime: 140
 shoot: {
-   shots: 5
+   shots: 2
    spread: 0
    shotDelay: 2
 }
@@ -26,7 +26,7 @@ shoot: {
 ammoTypes: {
   pionide: {
     speed: 6
-	damage: 10
+	damage: 23
     width: 4
 	height: 8
     shootEffect: shootBig
@@ -37,7 +37,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 15
+	damage: 24
     width: 4
 	height: 11
     shootEffect: shootBig
@@ -54,4 +54,4 @@ requirements: [
 category: turret
 research: core-hina
 shootSound: shootSnap
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2

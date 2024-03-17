@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Brifron Furnace
-description: Burns down Pionide to produce Brifron. 
+description: Burns down Pionide to produce Brifron.Produces liquid Pionide as a by-product. 
 size: 2
 drawer: {
   type: DrawMulti
@@ -28,9 +28,10 @@ consumes: {
 }
 craftTime: 55
 outputItem: brifron/1
+outputLiquid: liquid-pionide/0.3
 category: crafting
 research: core-hina
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2
 requirements: [
   pionide/35
   nitrace/12

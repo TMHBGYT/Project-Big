@@ -1,0 +1,25 @@
+type: WallCrafter
+name: Damiud Wall Crusher
+description: Crushes up pieces of Damiud walls to make damiud fragments. 
+size: 2
+category: production
+research: {
+  parent: core-hina
+  objectives: [
+    {
+      type: OnSector
+      preset: distinction
+    }
+  ]
+}
+
+requirements: [
+  pionide/10
+]
+drillTime: 125
+output: damiud-fragment
+attribute: damiud-fragment
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: true

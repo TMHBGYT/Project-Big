@@ -1,0 +1,16 @@
+localizedName: Distinction
+description: An anbush is aproching from 4 sides!Defend the core as best as you can.Utilize Damiud Wall Crushers.
+captureWave: 20
+planet: ingenuty
+sector: 17
+research: core-hina
+difficulty: 3
+research: {
+  parent: cave
+  objectives: [
+    {
+      type: SectorComplete
+      preset: cave
+    }
+  ]
+}

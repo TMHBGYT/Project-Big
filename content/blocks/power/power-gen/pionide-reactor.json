@@ -1,17 +1,17 @@
 {
   "type": "ConsumeGenerator",
   "name": "Pionide Reactor",
-  "description": "Melts Pionide and cools down with Water to make power.",
+  "description": "Mixes liquid pionide with Water to make power.",
   "size": 2,
   "hasPower": true,
   "hasItems": true,
   "itemDuration": 60,
   "powerProduction": 8,
   consumes: {
-    items: [
-     pionide/2
-    ]
-  liquid: water/0.5
+    liquids: [
+     water/0.5
+     liquid-pionide/0.7
+	]
 }
 drawer: {
   type: DrawMulti

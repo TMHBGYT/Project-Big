@@ -1,7 +1,7 @@
  {
   "name": "Advanced T2 Reconstructor",
   "type": "Reconstructor",
-  "researchCostMultiplier": 0.3,
+  "researchCostMultiplier": 0.2,
   "size": 3,
   "constructTime": 2030,
   "consumes": {
@@ -26,6 +26,10 @@
     [
       "kiki",
       "diamond"
+    ],
+    [
+      "mischa",
+      "vulcan"
     ]
   ],
   "category": "units",

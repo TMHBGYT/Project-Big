@@ -1,0 +1,6 @@
+name: damiud fragment
+description: A fragment of damiud. 
+cost: 0.7
+hardness: 0.6
+color: beb48f
+hiddenOnPlanets: [serpulo, erekir]

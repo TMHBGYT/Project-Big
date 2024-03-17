@@ -1,0 +1,10 @@
+type: Sorter
+name: Industrial Sorter
+description: A modified Serpulo sorter.Made with the technologies of Ingenuty.
+category: distribution
+research: pionide-router
+requirements: [
+  pionide/3
+  damiud/3
+]
+researchCostMultiplier: 0.5

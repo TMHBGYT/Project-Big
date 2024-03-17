@@ -11,6 +11,7 @@ shootCone: 25
 rotateSpeed: 3
 range: 300
 lifetime: 400
+collidesGround: false
 shoot: {
    type:shootAlternate
    shots: 2
@@ -55,4 +56,4 @@ requirements: [
 category: turret
 research: spaa
 shootSound: shootSnap
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2

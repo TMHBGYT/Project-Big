@@ -3,6 +3,7 @@ localizedName: Oblitiate SPAA
 description: a 1x1 turret that fires anti-air bullets.
 targetAir: true
 targetGround: false
+collidesGround: false
 health: 50
 size: 1
 reload:10
@@ -53,4 +54,4 @@ requirements: [
 category: turret
 research: oblitiate
 shootSound: shootSnap
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2

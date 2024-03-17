@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Damiud Merger
+description: Merges Fragments of Damiud to make Damiud.
+size: 2
+craftEffect: {
+  type: ParticleEffect
+  particles: 15
+  length: 12
+  lifetime: 58
+  colorTo: ff8900
+}
+consumes: {
+  items: [
+    damiud-fragment/2
+  ]
+}
+craftTime: 55
+outputItem:  damiud/1
+category: crafting
+research: core-hina
+researchCostMultiplier: 0.1
+requirements: [
+  pionide/35
+]

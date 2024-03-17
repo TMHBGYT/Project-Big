@@ -40,7 +40,7 @@ weapons: [
 		shootEffect: shootSmall
         smokeEffect: shootSmallSmoke
         color: 84f491
-		lifetime: 65
+		lifetime: 10
         healPercent: 4
 	    frontColor: 84f491
         backColor: 84f491

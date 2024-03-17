@@ -5,7 +5,7 @@
   "size": 1,
   "tier": 1,
   "drillTime": 630,
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "requirements": [
     {
       "item": "pionide",

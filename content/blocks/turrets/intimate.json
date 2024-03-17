@@ -1,19 +1,19 @@
 type: ItemTurret
 localizedName: Intimate
-description: a 2x2 turret that fires in a burst of 7.An upgrade of the Oblitiate.
+description: a 2x2 turret that fires in a burst of 3.An upgrade of the Oblitiate.
 targetAir: false
 targetGround: true
 health: 270
 size: 2
-reload:35
+reload: 23
 recoil: 3
 ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 2
-range: 250
-lifetime: 450
+range: 150
+lifetime: 240
 shoot: {
-   shots: 7
+   shots: 3
    spread: 0
    shotDelay: 2
 }
@@ -37,7 +37,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 45
+	damage: 34
     width: 4
 	height: 11
     shootEffect: shootBig
@@ -55,4 +55,4 @@ requirements: [
 category: turret
 research: oblitiate
 shootSound: shootSnap
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2

@@ -6,7 +6,7 @@ targetGround: true
 health: 20
 size: 1
 ammoUseMultiplier: 4
-reload:26
+reload: 28
 recoil: 1
 ammoUseEffect: casing3
 shootCone: 5
@@ -22,7 +22,7 @@ lifetime: 300
 ammoTypes: {
   pionide: {
     speed: 6
-	damage: 46
+	damage: 45
     width: 4
 	height: 8
     shootEffect: shootBig
@@ -33,7 +33,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 74
+	damage: 64
     width: 4
 	height: 11
     shootEffect: shootBig
