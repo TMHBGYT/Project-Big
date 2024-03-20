@@ -1,7 +1,7 @@
  {
   "name": "Advanced T2 Reconstructor",
   "type": "Reconstructor",
-  "researchCostMultiplier": 0.2,
+  "researchCostMultiplier": 0.05,
   "size": 3,
   "constructTime": 2030,
   "consumes": {

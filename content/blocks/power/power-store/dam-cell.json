@@ -9,5 +9,6 @@
 		{"item": "damiud", "amount": 35}
 	],
 	"consumes": { "powerBuffered": 75000 },
-	"research": "pio-cell"
+	"research": "pio-cell",
+    "researchCostMultiplier": "0.05"
 }

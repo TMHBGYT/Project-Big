@@ -18,7 +18,7 @@ craftTime: 55
 outputItem:  damiud/1
 category: crafting
 research: core-hina
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.05
 requirements: [
   pionide/35
 ]

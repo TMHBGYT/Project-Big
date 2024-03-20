@@ -10,5 +10,6 @@
     "pionide/5"
   ],
   "category": "power",
-  "research": "pio-node"
+  "research": "pio-node",
+  "researchCostMultiplier": "0.05"
 }

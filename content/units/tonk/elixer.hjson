@@ -1,0 +1,40 @@
+type: tank
+name: Exiler
+description: Fires serveral fraging bullets at enemy targets.Its a frickin` EBR on treads
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 1.5
+rotateSpeed: 4
+health: 235
+armor: 1
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 5
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0.5
+    name: elixer-weapon
+    reload: 4
+    rotate: true
+    mirror: false
+    bullet: {
+      type: BasicBulletType
+      speed: 4
+      lifetime: 35
+      damage: 5
+	}
+  }
+]
+research: advanced-unit-factory
+researchCostMultiplier: 0.05

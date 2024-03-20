@@ -1,7 +1,7 @@
 {
  "name": "Advanced Unit Factory",
  "type": "UnitFactory",
-  "researchCostMultiplier": 0.2,
+  "researchCostMultiplier": 0.05,
   "size": 3,
   "consumes": {
     "power": 1.8
@@ -33,6 +33,14 @@
       "time": 1150
     },
     {
+      "unit": "elixer",
+      "requirements": [
+        "exodium/10"
+	    "nitrace/20"
+	  ],
+      "time": 1035
+    },
+	{
       "unit": "pioneer",
       "requirements": [
         "pionide/15"

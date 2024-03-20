@@ -56,4 +56,4 @@ requirements: [
 category: turret
 research: spaa
 shootSound: shootSnap
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.05

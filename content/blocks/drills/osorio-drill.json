@@ -17,5 +17,6 @@
     }
   ],
   "category": "production",
-  "research": "ligment-drill"
+  "research": "ligment-drill",
+  "researchCostMultipier": 0.05
 }

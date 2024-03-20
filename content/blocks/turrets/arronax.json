@@ -90,4 +90,4 @@ requirements: [
 category: turret
 research: intimate
 shootSound: shootBig
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.05

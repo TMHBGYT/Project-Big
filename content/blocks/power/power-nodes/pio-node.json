@@ -10,5 +10,6 @@
     "pionide/1"
   ],
   "category": "power",
-  "research": "core-hina"
+  "research": "core-hina",
+  "researchCostMultiplier": "0.05"
 }

@@ -9,5 +9,6 @@
 		{"item": "pionide", "amount": 25}
 	],
 	"consumes": { "powerBuffered": 50000 },
-	"research": "pionide-reactor"
+	"research": "pionide-reactor",
+    "researchCostMultiplier": "0.05"
 }

@@ -10,4 +10,4 @@ requirements: [
 ]
 research: core-hina
 category: defense
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.05
