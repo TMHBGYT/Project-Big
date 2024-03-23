@@ -30,7 +30,7 @@ craftTime: 55
 outputItem: brifron/1
 outputLiquid: liquid-pionide/0.3
 category: crafting
-research: core-hina
+research: suagine-maker
 researchCostMultiplier: 0.05
 requirements: [
   pionide/35

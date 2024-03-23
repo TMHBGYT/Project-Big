@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Exodium Frabicator
+description: Processes Damiud and Liquid Pionide into Exodium. 
+size: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 15.0
+	  glowIntensity: 2.5
+	}
+    {
+      type: DrawRegion
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+consumes: {
+  items: [
+    damiud/3
+  ]
+  liquid: liquid-pionide/0.4
+}
+craftTime: 35
+outputItem: exodium/2
+category: crafting
+research: brifron-furnace
+researchCostMultiplier: 0.05
+requirements: [
+  damiud/12
+  nitrace/3
+]
