@@ -1,0 +1,9 @@
+name: Hydrogen
+description: A highly toxic gas,can be used to make Water once mixed with Oxygen.Treat with care. 
+gas: true
+temperature: 0.4
+heatCapacity: 0.0
+explosiveness: 0.9
+flammability: 3.0
+research: oxygen
+color: 397B79

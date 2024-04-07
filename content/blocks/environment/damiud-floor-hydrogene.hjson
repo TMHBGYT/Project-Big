@@ -1,0 +1,5 @@
+type: Floor
+name: Damiud Floor Hydrogen
+description: A floor left with remains of Damiud and Hydrogen.Due to the hard nature of Damiud,it is not minable.However if using a Hydrogen Extractor Hydrogen may be collected.
+attributes: hydrogene
+variants: 1

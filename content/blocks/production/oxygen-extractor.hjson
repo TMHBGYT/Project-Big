@@ -1,0 +1,41 @@
+type: AttributeCrafter
+attribute: oxygen
+baseEfficiency: 0
+minEfficiency: 0
+maxBoost: 1
+boostScale: 0.454
+hasItems: false
+hasLiquids: false
+hasPower: true
+size: 3
+squareSprite: true
+name: Oxygen Extractor
+description: Extracts Oxygen from the required tiles.
+researchCostMultiplier: 0.05
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: 2.5
+  }
+  {
+    type: DrawRegion
+    suffix: -top
+  }
+]
+
+consumes: {
+  power: 0.25
+}
+craftTime: 125
+outputLiquid: oxygen/0.2
+category: crafting
+research: water-separator
+requirements: [
+  exodium/60
+  nitrace/40
+]

@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Ninitin Synthesizer
+description: Processes Oxygen and Brifron into Niniton.
+size: 3
+craftEffect: {
+  type: ParticleEffect
+  particles: 11
+  length: 9
+  lifetime: 45
+  colorTo: ff8900
+}
+consumes: {
+  items: [
+    brifron/1
+  ]
+  liquid: oxygen/0.7
+}
+craftTime: 35
+outputItem: ninitin/2
+category: crafting
+research: water-seprator
+researchCostMultiplier: 0.05
+requirements: [
+  pionide/33
+  nitrace/12
+]

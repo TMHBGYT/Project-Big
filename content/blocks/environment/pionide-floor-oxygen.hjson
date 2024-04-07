@@ -1,0 +1,5 @@
+type: Floor
+name: Pionide Floor Oxygen
+description: A floor left with remains of pionide and oxygen.Due to the quick Decaying of Pionide,it is not minable.However if using an Oxygen Extractor,Oxygen may be collected.
+attributes: oxygen
+variants: 1

@@ -1,6 +1,6 @@
 type: tank
 name: Tericot
-description: Fires one artilery bullet and heavily frags towards targets at enemy targets.Has two small weapons on the front hull.
+description: Fires a deadly peircing moving laser towards targets at enemy targets.Has two small weapons on the front hull.
 hitSize: 45
 treadPullOffset: 3
 omniMovement: false
@@ -25,30 +25,21 @@ weapons: [
     x: 0
     y: 0.5
     name: tericot-weapon
-    reload: 45
+    reload: 245
     rotate: true
     mirror: false
     bullet: {
-    "type": "ArtilleryBulletType",
-    splashDamage: 24
-	splashDamageRadius: 20
-	"width": 9,
-    "height": 10,
-    "shootEffect": "shootBig",
-    "smokeEffect": "shootSmallSmoke",
-    speed: 4
-	"lifetime": 50
-    fragBullets: 8
-    fragLifeMin: 0.9
-    fragBullet: {
-	   damage: 14
-       splashDamage: 9
-	   splashDamageRadius: 12
-	   speed: 2
-       lifetime: 20
-       height: 8
-       width: 8
-	  }
+    type: LaserBulletType
+    damage: 210
+	pierce: true
+	pierceCap: 4
+	pierceDamageFactor: 340
+	width: 9
+    height: 10
+    shootEffect: shootBig
+    shootSound: laserbig
+	laserEffect: lancerLaserShootSmoke
+	lifetime: 50
    }
    }
    {
@@ -65,6 +56,7 @@ weapons: [
     "smokeEffect": "shootSmallSmoke",
     pierceCap: 3
 	speed: 3
+	status: weakened
 	"lifetime": 34
     }
   }

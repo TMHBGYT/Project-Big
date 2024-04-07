@@ -1,0 +1,11 @@
+name: Oxygen
+description: A vital gas required for most Ingenuty factory blocks. 
+heatCapacity: 0.3
+explosiveness: 0.1
+temperature: 0.3
+coolant: false
+gas: true
+flammability: 0.3
+incinerable: false
+research: liquid-pionide
+color: 00FFF9

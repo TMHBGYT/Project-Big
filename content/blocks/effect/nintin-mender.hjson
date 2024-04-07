@@ -1,0 +1,48 @@
+research: pionide-reactor
+type: MendProjector
+name: Ninitin Mender
+description: Slowly restores health over a wide area.
+size: 1
+range: 11
+reload: 85
+baseColor: B3686F
+squareSprite: true
+effect: {
+  type: ParticleEffect
+  colorFrom: B3686F
+  colorTo: 823A40
+  particles: 6
+  line: true
+  length: 4
+  baseLength: 3
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 120
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 0.4
+}
+healPercent: 0.234331
+requirements: [
+  ninitin/15
+  nitrace/30
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: B3686F
+      layer: 110
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

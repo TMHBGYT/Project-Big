@@ -1,0 +1,9 @@
+name: Pressurized Hydrogen
+description: A pressured version of hydrogen.Treat with care. 
+gas: true
+temperature: 0.6
+heatCapacity: 0.0
+explosiveness: 3.4
+flammability: 4.5
+research: hydrogene
+color: 397B79

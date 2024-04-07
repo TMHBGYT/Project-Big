@@ -1,0 +1,9 @@
+name: Ninitin
+description: A tough,explosive material.Is also Flamable since it contains Brifron.
+hardness: 0.8
+flammability: 0.3
+explosiveness: 0.8
+cost: 0.5
+research: exodium
+color: FFEDE5
+hiddenOnPlanets: [serpulo, erekir]

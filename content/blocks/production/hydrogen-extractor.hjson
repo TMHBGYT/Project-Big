@@ -1,0 +1,25 @@
+type: AttributeCrafter
+attribute: hydrogene
+baseEfficiency: 0
+minEfficiency: 0
+maxBoost: 1
+boostScale: 0.654
+hasItems: false
+hasLiquids: false
+hasPower: true
+size: 2
+squareSprite: true
+name: Hydrogen Extractor
+description: Extracts Hydrogen from the required tiles.
+researchCostMultiplier: 0.05
+consumes: {
+  power: 0.15
+}
+craftTime: 110
+outputLiquid: hydrogene/0.1
+category: crafting
+research: oxygen-extractor
+requirements: [
+  exodium/45
+  nitrace/25
+]

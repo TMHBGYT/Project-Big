@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Water Separator
+description: Separates Water into Hydrogen and Oxygen
+size: 3
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidOutputs
+  }
+]
+liquidOutputDirections: [
+  0 
+  1 
+]
+consumes: {
+  liquid: water/0.5
+}
+craftTime: 65
+outputLiquids: [ 
+    oxygen/0.5
+    hydrogene/0.5
+]
+category: crafting
+research: exodium-frabicator
+researchCostMultiplier: 0.05
+requirements: [
+  exodium/35
+  nitrace/12
+]

@@ -1,6 +1,6 @@
 type: tank
 name: Exiler
-description: Fires serveral fraging bullets at enemy targets.Its a frickin` EBR on treads
+description: Fires weaving,freezing missiles at enemy targets.Its a frickin` EBR on treads
 hitSize: 8
 treadPullOffset: 3
 omniMovement: false
@@ -25,14 +25,24 @@ weapons: [
     x: 0
     y: 0.5
     name: elixer-weapon
-    reload: 4
+    reload: 10
     rotate: true
     mirror: false
-    bullet: {
-      type: BasicBulletType
+    shoot: {
+      type: ShootSpread
+      shots: 2
+      spread: 3
+    }
+	bullet: {
+      type: MissileBulletType
       speed: 4
       lifetime: 35
-      damage: 5
+      damage: 7
+	  status: frozen
+	  weaveMag: 1
+	  weaveScale: 9
+	  frontColor: 00C7FF
+	  backColor: 00C7FF
 	}
   }
 ]

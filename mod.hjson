@@ -2,6 +2,6 @@ name: project big
 displayName:Project Big
 author: TMHBG
 description:A mindustry mod
-version: BETA
-minGameVersion: 143
+version: Beta
+minGameVersion: 140
 hidden: false
