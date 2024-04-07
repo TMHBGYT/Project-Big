@@ -1,17 +1,16 @@
 research: pionide-reactor
-type: MendProjector
+type: RegenProjector
 name: Ninitin Mender
-description: Slowly restores health over a wide area.Can take hydrogen as a booster.
+description: Slowly restores health over a wide area.Can take exodium as a booster.
 size: 1
 range: 11
-reload: 85
 baseColor: B3686F
 squareSprite: true
-liquids: {
-liquids: [
+items: {
+items: [
 {
-liquid: hydrogene
-amount: 0.3
+item: exodium
+amount: 1
 }
 ]
 booster: true
@@ -22,7 +21,7 @@ effect: {
   colorFrom: B3686F
   colorTo: 823A40
   particles: 6
-  line: true
+  line: false
   length: 4
   baseLength: 3
   strokeFrom: 0.6
