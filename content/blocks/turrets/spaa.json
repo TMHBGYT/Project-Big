@@ -29,6 +29,7 @@ ammoTypes: {
 	damage: 45
     width: 4
 	height: 8
+    ammoPerShot: 4
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
@@ -42,6 +43,7 @@ ammoTypes: {
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
+    ammoPerShot: 4
     ammoMultiplier: 5
     reloadMultiplier: 0.8
     lightRadius:4

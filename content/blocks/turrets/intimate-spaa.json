@@ -27,6 +27,7 @@ shoot: {
 ammoTypes: {
   pionide: {
     speed: 6
+	ammoPerShot: 4
 	damage: 74
     width: 4
 	height: 8
@@ -38,6 +39,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
+	ammoPerShot: 4
 	damage: 95
     width: 4
 	height: 11

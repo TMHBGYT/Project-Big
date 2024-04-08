@@ -28,6 +28,7 @@ ammoTypes: {
     speed: 6
 	damage: 23
     width: 4
+	ammoPerShot: 4
 	height: 8
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -37,6 +38,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
+	ammoPerShot: 4
 	damage: 24
     width: 4
 	height: 11

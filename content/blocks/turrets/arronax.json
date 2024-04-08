@@ -1,6 +1,6 @@
 type: ItemTurret
 localizedName: Arronax
-description: A 3x3 turret that fires at ground and air targets.
+description: A 3x3 turret that fires at ground and air targets.Uses lots of ammo.
 targetAir: true
 targetGround: true
 health: 510
@@ -50,7 +50,8 @@ ammoTypes: {
     ammoMultiplier: 2
     reloadMultiplier: 0.7
 	lightRadius:3
-    fragBullets: 9
+    ammoPerShot: 60
+	fragBullets: 9
     fragLifeMin: 0.6
     fragBullet: {
       damage: 16
@@ -66,7 +67,8 @@ ammoTypes: {
 	damage: 82
     width: 11
 	height: 17
-    shootEffect: shootBig
+    ammoPerShot: 60
+	shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
     reloadMultiplier: 1

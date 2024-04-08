@@ -28,7 +28,8 @@ ammoTypes: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 1
+    ammoPerShot: 4
+	reloadMultiplier: 1
 	lightRadius:3
   }
   damiud: {
@@ -40,7 +41,8 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
     reloadMultiplier: 0.6
-    lightRadius:4
+    ammoPerShot: 4
+	lightRadius:4
   }
 }
 requirements: [
