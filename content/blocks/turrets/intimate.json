@@ -4,11 +4,11 @@ description: A 2x2 turret that fires several slow,low damage bullets at enemy ta
 targetAir: false
 targetGround: true
 health: 150
-size: 1
-reload:35
+size: 2
+reload:120
 recoil: 1
 ammoUseEffect: casing3
-shootCone: 25
+shootCone: 5
 rotateSpeed: 1
 range: 130
 lifetime: 140
