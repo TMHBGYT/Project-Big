@@ -1,14 +1,9 @@
-type: legs
-legCount: 4
-legLength: 8
-legSpeed: 0.23
-legForwardScl: 0.56
-legMoveSpace: 0.7
-hovering: true
+type: mech
+canBoost: true
 groundLayer: 60
 name: Xeon
 description: The main core unit of Core Hina.
-health: 135
+health: 210
 armor: 1
 mineFloor: true
 mineWalls: true

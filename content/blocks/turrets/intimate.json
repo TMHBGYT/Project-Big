@@ -1,58 +1,73 @@
 type: ItemTurret
 localizedName: Intimate
-description: a 2x2 turret that fires in a burst of 3.An upgrade of the Oblitiate.
+description: A 2x2 turret that fires several slow,low damage bullets at enemy targets.More effective against large groups
 targetAir: false
 targetGround: true
-health: 270
-size: 2
-reload: 23
-recoil: 3
+health: 150
+size: 1
+reload:35
+recoil: 1
 ammoUseEffect: casing3
 shootCone: 25
-rotateSpeed: 2
-range: 150
-lifetime: 240
-shoot: {
-   shots: 3
-   spread: 0
-   shotDelay: 2
-}
-"coolantMultiplier": 0.7,
+rotateSpeed: 1
+range: 130
+lifetime: 140
+    shoot: {
+      type: ShootSpread
+      shots: 3
+      spread: 2
+
+"coolantMultiplier": 0.6,
   "consumes": {
     "coolant": {
-      "amount": 0.6
+      "amount": 0.3
     }
   },
 ammoTypes: {
   pionide: {
-    speed: 6
-	damage: 24
+    speed: 3
+	splashDamage: 6
+	splashDamageRadius: 11
+	damage: 9
     width: 4
+	ammoPerShot: 35
 	height: 8
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 5
-    ammoPerShot: 4
-	reloadMultiplier: 1
-	lightRadius:3
+    ammoMultiplier: 8
+    reloadMultiplier: 1
   }
   damiud: {
-    speed: 6
-	damage: 34
+    speed: 3
+	splashDamage: 7
+	splashDamageRadius: 10
+	ammoPerShot: 38
+	damage: 11
     width: 4
-	ammoPerShot: 4
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 5
-    reloadMultiplier: 0.5
-    lightRadius:4
+    ammoMultiplier: 7
+    reloadMultiplier: 0.8
   }
+  nitrace: {
+    speed: 3
+	splashDamage: 9
+	splashDamageRadius: 12
+	ammoPerShot: 40
+	damage:13
+    width: 4
+	height: 11
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 9
+    reloadMultiplier: 0.7
+   }
 }
 requirements: [
-  pionide/75
-  nitrace/30
-  damiud/15
+  pionide/45
+  damiud/20
+  nitrace/15
 ]
 category: turret
 research: oblitiate
