@@ -16,7 +16,7 @@ lifetime: 140
       type: ShootSpread
       shots: 3
       spread: 2
-
+}
 "coolantMultiplier": 0.6,
   "consumes": {
     "coolant": {
