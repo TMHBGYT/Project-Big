@@ -1,0 +1,35 @@
+type: Constructor
+name: Advanced Cargo Assembler
+description: 
+''' 
+  Produces 2x2 cargo
+
+  Recipes: 
+    - Intimate
+    - Indigo
+    - Large Pionide Wall
+    - Barge
+    -Striker
+''' 
+size: 3
+category: units
+requirements: [
+  exodium/50
+  pionide/75
+] 
+hasPower: true
+consumes: {
+  power: 0.7
+}
+buildSpeed: 1
+filter: [
+  pb-intimate, 
+  pb-indigo, 
+  pb-large-pionide-wall,
+  pb-barge, 
+  pb-striker,
+]
+research: mech-factory
+squareSprite: true
+conductivePower: true
+researchCostMultiplier: 0.5

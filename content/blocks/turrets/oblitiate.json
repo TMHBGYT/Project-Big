@@ -1,6 +1,6 @@
 type: ItemTurret
 localizedName: Oblitiate
-description: a 1x1 turret that fires in a burst of 2 with a short-long cool down depending on ammunition.
+description: A 1x1 turret that fires a short laser.Unable to pierce anything.Can not be cooled
 targetAir: false
 targetGround: true
 health: 150
@@ -12,41 +12,15 @@ shootCone: 25
 rotateSpeed: 1
 range: 130
 lifetime: 140
-shoot: {
-   shots: 2
-   spread: 0
-   shotDelay: 2
-}
-"coolantMultiplier": 0.6,
-  "consumes": {
-    "coolant": {
-      "amount": 0.3
-    }
-  },
 ammoTypes: {
   pionide: {
-    speed: 6
+    type: LaserBulletType
 	damage: 23
-    width: 4
 	ammoPerShot: 4
-	height: 8
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
+	length: 60
+    width: 0.5
     ammoMultiplier: 5
     reloadMultiplier: 1
-	lightRadius:3
-  }
-  damiud: {
-    speed: 6
-	ammoPerShot: 4
-	damage: 24
-    width: 4
-	height: 11
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 5
-    reloadMultiplier: 0.7
-    lightRadius:4
   }
 }
 requirements: [

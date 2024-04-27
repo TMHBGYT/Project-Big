@@ -1,39 +1,90 @@
 type: mech
 name: Mischa
-description: Fires Piercing bullets.
-speed: 0.7
+description: Fires green missiles on the the right and blue trailed bullets on the left.
+speed: 0.2
 flying: false
 canBoost: false
-health: 160
-hitSize: 10
-armor: 1
+health: 1000
+hitSize: 45
+canBoost: true
+armor: 10
 outlineColor: 44413c
 mechLegColor: 44413c
+abilities: [
+  {
+    type: ShieldArcAbility
+    max: 250
+    regen: 0.03
+    angle: 65
+    cooldown: 300
+    whenShooting: true
+    width: 4
+    x: 0
+    y: -5
+    radius: 45
+  }
+]
   weapons: [
     {
-      x: 4.5
-      name: mischa-weapon
-        y: 2
-        reload: 34
-        rotate: false
-        mirror: true
-        alternate: true
-        shootSound: shootBig
-        top: false
-		"ejectEffect": "casing2",
-		"bullet": {
-            "type": "BasicBulletType",
-            "damage": 12,
-            "speed": 4,
-            "width": 5,
-            "height": 7,
-            "shootEffect": "shootBig",
-            "smokeEffect": "shootSmallSmoke",
-            "lifetime": 23
-	        pierceCap:2
-            pierce: true
-			pierceBuilding: true
-        } 
-    }			
+    x: 16
+    y: 0
+    name: mischa-weapon-r
+    reload: 120
+    rotate: false
+    mirror: false
+	top: false
+	shoot: {
+      shots: 2
+      shotDelay: 9
+    }
+	bullet: {
+    type: MissileBulletType
+    damage: 84
+    splashDamage: 76
+	splashDamageRadius: 34
+	scaledSplashDamage: true
+	shootEffect: shootBig
+    smokeEffect: shootSmallSmoke
+	width: 8
+	height: 15
+    backColor: 38F670
+    lightColor: 38F670
+	speed: 2
+	lifetime: 80
+    }
+    }
+    {
+    x: -16
+    y: 0
+    name: mischa-weapon-l
+    reload: 95
+    top: false
+	rotate: false
+    mirror: false
+	shoot: {
+      shots: 3
+      shotDelay: 6
+    }
+	bullet: {
+    type: BasicBulletType,
+    width: 8
+	height: 15
+	damage: 46
+    splashDamage: 68
+	splashDamageRadius: 26
+	scaledSplashDamage: true
+	shootEffect: shootBig,
+    smokeEffect: shootSmallSmoke,
+	weaveScale: 7
+	weaveMag: 2
+	trailLength: 16
+    trailWidth: 2
+    trailColor: 2583DB
+    backColor: 2583DB
+    lightColor: 2583DB
+	speed: 2
+	lifetime: 85
+	}
+  }
 ]
-research: advanced-unit-factory
+research: level1-unit-module

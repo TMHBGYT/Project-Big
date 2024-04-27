@@ -4,7 +4,7 @@ description: A small,fast and agile air attack/defense unit.
 speed: 3.4
 accel: 0.1
 drag: 0.0625
-health: 155
+health: 200
 alwaysUnlocked: false
 itemCapacity: 15
 rotateSpeed: 4

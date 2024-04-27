@@ -26,7 +26,7 @@ shoot: {
 ammoTypes: {
   pionide: {
     speed: 6
-	damage: 45
+	damage: 7
     width: 4
 	height: 8
     ammoPerShot: 4
@@ -38,7 +38,7 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 55
+	damage: 11
     width: 4
 	height: 11
     shootEffect: shootBig

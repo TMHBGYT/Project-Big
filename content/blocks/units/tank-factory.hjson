@@ -1,0 +1,38 @@
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Tank Factory
+description: Produces tanks using payloads. Requires power.
+size: 4
+category: units
+droneType: pb-drone
+research: mech-factory
+requirements: [
+  nitrace/35
+  exodium/20
+  damiud/40
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: elixer
+    requirements: [
+      pb-barge/1
+      pb-pionide-wall/1
+    ]
+    time: 850
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: tericot
+    requirements: [
+      pb-oblitiate/1
+      pb-large-pionide-wall/3
+      pb-insiuate/2
+    ]
+    time: 1350
+  }
+]
+squareSprite: true
+consumes: {
+  power: 2
+}

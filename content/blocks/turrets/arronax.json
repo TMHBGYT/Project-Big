@@ -3,9 +3,9 @@ localizedName: Arronax
 description: A 3x3 turret that fires at ground and air targets.Uses lots of ammo.
 targetAir: true
 targetGround: true
-health: 510
+health: 330
 size: 3
-reload: 35
+reload: 56
 recoil: 1
 ammoUseEffect: casing3
 shootCone: 5
@@ -40,22 +40,22 @@ drawer: {
   },
 ammoTypes: {
   brifron: {
-    speed: 6
-	damage: 58
+    speed: 3
+	damage: 32
     status: burning
 	width: 11
 	height: 15
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
-    reloadMultiplier: 0.7
+    reloadMultiplier: 1
 	lightRadius:3
-    ammoPerShot: 60
-	fragBullets: 9
-    fragLifeMin: 0.6
+    ammoPerShot: 110
+	fragBullets: 3
+    fragLifeMin: 0.3
     fragBullet: {
-      damage: 16
-      speed: 3
+      damage: 4
+      speed: 1
       lifetime: 12
       height: 8
       width: 8
@@ -64,19 +64,19 @@ ammoTypes: {
   }
   nitrace: {
     speed: 6
-	damage: 82
+	damage: 46
     width: 11
 	height: 17
-    ammoPerShot: 60
+    ammoPerShot: 140
 	shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
-    reloadMultiplier: 1
+    reloadMultiplier: 0.7
     lightRadius:4
-    fragBullets: 6
-    fragLifeMin: 0.4
+    fragBullets: 4
+    fragLifeMin: 0.3
     fragBullet: {
-      damage: 10
+      damage: 9
       speed: 1
       lifetime: 5
       height: 7

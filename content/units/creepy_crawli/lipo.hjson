@@ -2,8 +2,8 @@ type: legs
 name: Lipo
 description: A tier two Spider unit meant for attacks.Recommend using it in high numbers.Made with the base of a Spricot.
 speed: 0.4
-health: 465
-armor: 4
+health: 850
+armor: 7
 flying: false
 legExtension: -2.6
 legMoveSpace: 1.6

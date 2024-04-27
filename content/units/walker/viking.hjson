@@ -1,0 +1,39 @@
+type: mech
+name: Viking
+description: Fires Piercing bullets.
+speed: 0.7
+flying: false
+canBoost: false
+health: 205
+hitSize: 10
+armor: 0
+outlineColor: 44413c
+mechLegColor: 44413c
+  weapons: [
+    {
+      x: 4.5
+      name: viking-weapon
+        y: 2
+        reload: 34
+        rotate: false
+        mirror: true
+        alternate: true
+        shootSound: shootBig
+        top: false
+		"ejectEffect": "casing2",
+		"bullet": {
+            "type": "BasicBulletType",
+            "damage": 12,
+            "speed": 4,
+            "width": 5,
+            "height": 7,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootSmallSmoke",
+            "lifetime": 23
+	        pierceCap:2
+            pierce: true
+			pierceBuilding: true
+        } 
+    }			
+]
+research: advanced-unit-factory

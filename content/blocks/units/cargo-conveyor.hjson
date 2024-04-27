@@ -1,0 +1,12 @@
+type: PayloadConveyor
+name: Cargo Conveyor
+description: Transport cargo towards the intend destination.
+category: units
+research: cargo-assembler
+requirements: [
+  pionide/15
+  exodium/8
+]
+canOverdrive: false
+payloadLimit: 3
+researchCostMultiplier: 0.5

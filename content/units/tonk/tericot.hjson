@@ -8,8 +8,8 @@ faceTarget: false
 outlineColor: 44413c
 speed: 0.7
 rotateSpeed: 3
-health: 425
-armor: 3
+health: 750
+armor: 4
 itemCapacity: 0
 hitSize: 13
 treadRects: [

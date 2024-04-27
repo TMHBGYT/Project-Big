@@ -1,0 +1,15 @@
+type: UnitAssemblerModule
+name: Basic Assembler Constituent
+description: Increases an assemblers' tier by 1 when placed next to its bounding box. May be used as an additional payload input.
+size: 3
+category: units
+research: mech-factory
+requirements: [
+  pionide/100
+  damiud/85
+  nitrace/65
+]
+consumes: {
+  power: 1
+}
+researchCostMultiplier: 0.5

@@ -8,7 +8,7 @@ buildSpeed: 2.4
 speed: 3.6
 accel: 0.234
 drag: 0.0345
-health: 250
+health: 430
 alwaysUnlocked: false
 itemCapacity: 75
 rotateSpeed: 6

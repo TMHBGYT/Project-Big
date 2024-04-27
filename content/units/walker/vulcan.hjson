@@ -4,10 +4,10 @@ description: Fires heavy,piercing,fraging artilery barrages of bullets.Is able t
 speed: 0.5
 flying: false
 canBoost: false
-health: 457
+health: 730
 hitSize: 24
 canBoost: true
-armor: 3
+armor: 6
 outlineColor: 44413c
 mechLegColor: 44413c
   weapons: [

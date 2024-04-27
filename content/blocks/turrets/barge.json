@@ -1,21 +1,20 @@
 type: ItemTurret
-localizedName: Intimate
-description: A 2x2 turret that fires flak bullets in ontervals of 4.
-targetAir: false
+localizedName: Barge
+description: A 2x2 turret that fires missiles in intervals of 2.
+targetAir: true
 targetGround: true
 health: 150
 size: 2
-reload: 90
+reload: 60
 recoil: 1
 ammoUseEffect: casing3
-shootCone: 5
-rotateSpeed: 1
-range: 140
+shootCone: 2
+rotateSpeed: 2
+range: 225
 inaccuracy: 10
-lifetime: 235
     shoot: {
-      shots: 4
-      shotDelay: 10
+      shots: 2
+      shotDelay: 6
 }
 "coolantMultiplier": 0.6,
   "consumes": {
@@ -24,58 +23,66 @@ lifetime: 235
     }
   },
 ammoTypes: {
-  pionide: {
-    type: FlakBulletType
+  ice: {
+    type: MissileBulletType
 	speed: 3
-	splashDamage: 19
-	splashDamageRadius: 21
-	damage: 9
+	splashDamage: 12
+	splashDamageRadius: 18
+	damage: 22
     width: 9
-	ammoPerShot: 35
+	ammoPerShot: 25
 	height: 13
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 8
     collidesGround: true
+	collidesAir: true
 	reloadMultiplier: 1
+    lifetime: 75
+    status: frozen
+	frontColor: 00C7FF
+    backColor: 00C7FF  
   }
-  damiud: {
-    type: FlakBulletType
+  pionide: {
+    type: MissileBulletType
 	speed: 3
 	splashDamage: 28
 	splashDamageRadius: 20
-	ammoPerShot: 38
-	damage: 11
+	ammoPerShot: 30
+	damage: 35
     width: 10
-    collidesGround: true	
+    collidesGround: true
+	collidesAir: true
 	height: 15
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 7
     reloadMultiplier: 0.8
+    lifetime: 75
   }
-  nitrace: {
-    type: FlakBulletType
+  exodium: {
+    type: MissileBulletType
 	speed: 3
-	splashDamage: 35
-    collidesGround: true	
-	splashDamageRadius: 24
-	ammoPerShot: 40
-	damage:13
+	splashDamage: 34
+    collidesGround: true
+	collidesAir: true
+	splashDamageRadius: 26
+	ammoPerShot: 35
+	damage: 44
     width:12
 	height: 16
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 9
-    reloadMultiplier: 0.7
+    reloadMultiplier: 0.6
    }
 }
 requirements: [
   pionide/45
-  damiud/20
-  nitrace/15
+  damiud/35
+  exodium/15
 ]
 category: turret
-research: oblitiate
-shootSound: shootSnap
+research: intimate
+shootSound: missile
 researchCostMultiplier: 0.05

@@ -1,0 +1,11 @@
+type: PayloadRouter
+name: Cargo Router
+description: Distributes inputted cargo to up to three output directions.
+category: units
+research: cargo-conveyor
+requirements: [
+  pionide/15
+  exodium/10
+]
+canOverdrive: false
+researchCostMultiplier: 0.5

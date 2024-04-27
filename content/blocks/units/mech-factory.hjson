@@ -1,0 +1,55 @@
+type: UnitAssembler
+name: Mech Fractory
+description: Produces mechs using cargo. Requires power.
+size: 4
+category: units
+droneType: pb-drone
+research: {
+  parent: core-hina
+  objectives: [
+    {
+      type: OnSector
+      preset: cave
+    }
+  ]
+}
+requirements: [
+  pionide/50
+  damiud/30
+  exodium/10
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: viking
+    requirements: [
+      pb-insiuate/2
+      pb-pionide-wall/1
+    ]
+    time: 720
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: vulcan
+    requirements: [
+      pb-striker/2
+      pb-large-pionide-wall/2
+    ]
+    time: 1200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: mischa
+    requirements: [
+      pb-barge/1
+      pb-intimate/1
+      pb-large-pionide-wall/4
+    ]
+    time: 1750
+  }
+]
+squareSprite: true
+consumes: {
+  power: 2
+}
+researchCostMultiplier: 0.5
