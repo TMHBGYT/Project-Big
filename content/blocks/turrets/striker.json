@@ -11,7 +11,7 @@ ammoUseEffect: casing3
 shootCone: 9
 rotateSpeed: 1
 range: 285
-inaccuracy: 10
+inaccuracy: 0
     shoot: {
       shots: 2
       shotDelay: 6
