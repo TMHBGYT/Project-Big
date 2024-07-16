@@ -1,0 +1,9 @@
+name: Liquid Sap
+description: A liquid containing sap,treat with care.
+gas: false
+temperature: 0.6
+heatCapacity: 0.0
+explosiveness: 0.2
+flammability: 0.1
+research: hydrogene
+color: bf92f9

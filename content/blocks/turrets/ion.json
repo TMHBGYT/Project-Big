@@ -1,0 +1,38 @@
+type: ItemTurret
+localizedName: Ion
+description: A 2x2 turret that casts sap at enemy at ground and air targets.
+targetAir: true
+targetGround: true
+health: 115
+size: 2
+reload: 90
+recoil: 1
+shootCone: 10
+rotateSpeed: 2
+range: 55
+ammoTypes: {
+  pionide: {
+     type: SapBulletType
+     length: 55
+     damage: 27
+     sapStrength: 0.10
+     status: sapped
+	 color:bf92f9
+	}
+  damiud: {
+     type: SapBulletType
+     length: 55
+     damage: 36
+     sapStrength: 0.15
+     status: sapped
+	 color:bf92f9
+	}
+}
+requirements: [
+  pionide/80
+  nitrace/15
+  exodium/10
+]
+category: turret
+research: oblitiate
+researchCostMultiplier: 0.05

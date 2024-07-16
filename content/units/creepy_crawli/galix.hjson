@@ -1,0 +1,65 @@
+type: legs
+name: Galix
+description: A tier four Spider unit meant for attacks.Recommend using it in high numbers.Equiped with a liquid sap launcher.
+health: 9500
+armor: 14
+speed: 0.3
+flying: false
+legExtension: -2.6
+legMoveSpace: 1.6
+hovering: false
+isEnemy: false
+legCount: 8
+legLength: 14
+legSpeed: 0.12
+legForwardScl: 0.65
+itemCapacity: 65
+outlineColor: 44413c
+hitSize: 33
+weapons: [
+{
+    x: 9
+    y: -2
+    name: lipo-weapon
+    reload: 60
+    rotate: false
+    shootSound: missile
+    mirror: true
+	inaccuracy: 5
+	bullet: {
+     type: SapBulletType
+     length: 65
+     damage: 230
+     sapStrength: 0.35
+     status: sapped
+	 color:bf92f9
+	}
+  }
+  {
+    x: 0
+    y: -7
+    name: sap-launcher
+    reload: 45
+    rotate: false
+    shootSound: missile
+    mirror: false
+	inaccuracy: 0
+	shoot: {
+      shots: 8
+      shotDelay: 6
+    }
+	bullet: {
+     type: LiquidBulletType
+     liquid: sap-liquid
+	 puddleSize: 8
+	 orbSize: 5
+	 boilTime: 7
+	 knockback: 3
+     damage: 15
+     sapStrength: 0.30
+     status: sapped
+	 color:bf92f9
+	}
+  }
+]
+research: advanced-t2-recontructor

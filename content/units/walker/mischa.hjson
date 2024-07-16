@@ -39,8 +39,8 @@ abilities: [
     }
 	bullet: {
     type: MissileBulletType
-    damage: 84
-    splashDamage: 76
+    damage: 64
+    splashDamage: 56
 	splashDamageRadius: 34
 	scaledSplashDamage: true
 	shootEffect: shootBig
@@ -69,8 +69,8 @@ abilities: [
     type: BasicBulletType,
     width: 8
 	height: 15
-	damage: 46
-    splashDamage: 68
+	damage: 26
+    splashDamage: 48
 	splashDamageRadius: 26
 	scaledSplashDamage: true
 	shootEffect: shootBig,

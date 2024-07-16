@@ -1,0 +1,47 @@
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Special Units Factory
+description: Produces special units using payloads. Requires power.
+size: 4
+category: units
+droneType: pb-drone
+research: mech-factory
+requirements: [
+  nitrace/30
+  exodium/15
+  damiud/40
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: nuli
+    requirements: [
+      pb-eon/2
+      pb-pionide-wall/2
+    ]
+    time: 750
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: lipo
+    requirements: [
+      pb-ion/2
+      pb-large-pionide-wall/3
+    ]
+    time: 1250
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: oryn
+    requirements: [
+      pb-ion/2
+      pb-eon/2
+	  pb-large-pionide-wall/3
+    ]
+    time: 1750
+  } 
+]
+squareSprite: true
+consumes: {
+  power: 2
+}

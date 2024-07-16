@@ -1,0 +1,41 @@
+type: PowerTurret
+name: Impulse
+description: Delivers several consecutive electrical arcs that do high damage and shock enemies.Requires to be charged.
+size: 2
+reload: 120
+accurateDelay: false
+inaccuracy: 1
+squaresprite: false
+shoot: {
+  firstShotDelay: 75
+  shots: 10
+  shotDelay: 12
+}
+range: 176
+outlineColor: 42413e
+shootSound: laser
+chargeSound: lasercharge
+researchCostMultiplier: 0.5
+shootType: {
+  type: LightningBulletType
+  lightning: 3
+  lightningLength: 27
+  damage: 110
+  status: shocked
+  buildingDamageMultiplier: 0.5
+  chargeEffect: lightningCharge
+}
+category: turret
+squareSprite: true
+research: striker
+requirements: [
+  pionide/50
+  exodium/55
+  ninitin/120
+  nitrace/30
+]
+targetAir: false
+consumes: {
+  power: 4.2158
+}
+

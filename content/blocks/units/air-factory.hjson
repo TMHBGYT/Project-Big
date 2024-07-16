@@ -5,7 +5,7 @@ description: Produces attack air units using cargo.Requires power.
 size: 4
 category: units
 droneType: pb-drone
-research: mech-factory
+research: special-units-factory
 
 requirements: [
   pionide/75

@@ -1,7 +1,7 @@
 type: legs
 name: Nuli
 description: A tier one Spider unit meant for attacks.
-speed: 0.4
+speed: 0.8
 health: 260
 armor: 2
 flying: false

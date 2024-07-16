@@ -1,0 +1,133 @@
+type: tank
+name: Sindicate
+description: Fires like a shotgun towards targets at enemy targets.Has two small weapons on the front hull and 2 small weapons in the back.
+hitSize: 45
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 0.7
+rotateSpeed: 3
+health: 1100
+armor: 9
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 5
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0.5
+    name: sindicate-weapon
+    reload: 245
+    rotate: true
+    mirror: false
+    shoot: {
+      type: ShootSpread
+      shots: 2
+      spread: 3
+    }
+	bullet: {
+    type :  ArtilleryBulletType  
+    speed: 2
+	damage : 70
+    splashDamage: 70
+	splashDamageRadius: 30
+	width: 9
+    height: 10
+    shootEffect: shootBig
+    shootSound: laserbig
+	laserEffect: lancerLaserShootSmoke
+	lifetime: 90
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragBullets: 1
+    fragBullet: {
+      type: BasicBulletType
+      speed: 1
+      lifetime: 15
+      damage: 20
+	  splashDamage: 20
+      splashDamageRadius: 25
+      width: 7.8
+      height: 7.8
+      pierce: true
+      pierceCap: 1
+	  fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragBullets: 1
+      fragBullet: {
+        type: BasicBulletType
+        speed: 1
+        lifetime: 20
+        damage: 15
+		splashDamage: 15
+        splashDamageRadius: 20
+        width: 7.6
+        height: 7.6
+        pierce: true
+        pierceCap: 2
+		fragBullets: 1
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          type: BasicBulletType
+          speed: 1
+          lifetime: 25
+          damage: 10
+          splashDamage: 10
+          splashDamageRadius: 15
+          pierce: true
+          pierceCap: 3
+        }
+      }
+    }
+   }
+   } 
+   {
+	x: 9
+    y: 9
+    name: tericot-weapon-small
+    reload: 15
+    rotate: true
+    mirror: true
+	bullet: {
+     type :  BasicBulletType  
+     damage : 7 
+     shootEffect :  shootBig  
+     smokeEffect :  shootSmallSmoke  
+     pierceCap: 3
+	 speed: 3
+	 status: weakened
+	 lifetime : 34
+    }
+    }
+    {
+    x: 9
+    y: -9
+    name: tericot-weapon-small
+    reload: 20
+    rotate: true
+    mirror: true
+    bullet: {
+    type: LaserBulletType
+     damage: 30
+	 pierce: true
+	 pierceCap: 4
+	 pierceDamageFactor: 40
+	 width: 4
+     height: 5
+     shootEffect: shootBig
+     shootSound: laserbig
+	 laserEffect: lancerLaserShootSmoke
+    }    
+  }
+]
+research: advanced-t2-recontructor
+researchCostMultiplier: 0.05

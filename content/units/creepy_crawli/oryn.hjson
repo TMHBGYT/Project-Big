@@ -1,0 +1,65 @@
+type: legs
+name: Oryn
+description: A tier three Spider unit meant for attacks.Recommend using it in high numbers.Equiped with a liquid sap launcher
+health: 1000
+armor: 11
+speed: 0.5
+flying: false
+legExtension: -2.6
+legMoveSpace: 1.6
+hovering: false
+isEnemy: false
+legCount: 6
+legLength: 12
+legSpeed: 0.18
+legForwardScl: 0.56
+itemCapacity: 65
+outlineColor: 44413c
+hitSize: 28
+weapons: [
+{
+    x: 9
+    y: -2
+    name: lipo-weapon
+    reload: 60
+    rotate: false
+    shootSound: missile
+    mirror: true
+	inaccuracy: 5
+	bullet: {
+     type: SapBulletType
+     length: 65
+     damage: 110
+     sapStrength: 0.25
+     status: sapped
+	 color:bf92f9
+	}
+  }
+  {
+    x: 0
+    y: -4
+    name: sap-launcher
+    reload: 35
+    rotate: false
+    shootSound: missile
+    mirror: false
+	inaccuracy: 0
+	shoot: {
+      shots: 8
+      shotDelay: 2
+    }
+	bullet: {
+     type: LiquidBulletType
+     liquid: sap-liquid
+	 puddleSize: 7
+	 orbSize: 4
+	 boilTime: 6
+	 knockback: 2
+     damage: 7
+     sapStrength: 0.30
+     status: sapped
+	 color:bf92f9
+	}
+  }
+]
+research: advanced-t2-recontructor
