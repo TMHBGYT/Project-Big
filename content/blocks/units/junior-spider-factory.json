@@ -1,0 +1,44 @@
+{
+ "name": "Junior Spider Factory",
+ "type": "UnitFactory",
+  "researchCostMultiplier": 0.09,
+  "size": 3,
+  "consumes": {
+    "power": 1.9
+  },
+  "plans": [
+    {
+      "unit": "nuli",
+      "requirements": [
+        "nitrace/15"
+	    "pionide/25"
+	  ],
+      "time": 1075
+    }
+    {
+      "unit": "lipo",
+      "requirements": [
+        "nitrace/95"
+	    "damiud/30"
+	    "pionide/65"
+	  ],
+      "time": 1125
+    },
+    {
+      "unit": "oryn",
+      "requirements": [
+	    "nitrace/100"
+	    "damiud/40"
+	    "exodium/70"
+	  ],
+      "time": 1250
+    }
+  ],
+  "category": "units",
+  "research": "core-hina"
+  "requirements": [
+    "nitrace/60",
+    "pionide/80",
+    "damiud/70"
+  ]
+}

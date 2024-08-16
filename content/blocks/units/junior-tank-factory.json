@@ -1,0 +1,44 @@
+{
+ "name": "Junior Tank Factory",
+ "type": "UnitFactory",
+  "researchCostMultiplier": 0.09,
+  "size": 3,
+  "consumes": {
+    "power": 2.0
+  },
+  "plans": [
+    {
+      "unit": "elixer",
+      "requirements": [
+        "nitrace/10"
+	    "pionide/25"
+	  ],
+      "time": 950
+    }
+	{
+      "unit": "tericot",
+      "requirements": [
+        "nitrace/55"
+	    "damiud/100"
+	    "pionide/130"
+	  ],
+      "time": 1090
+    },
+    {
+      "unit": "sindicate",
+      "requirements": [
+        "pionide/150"
+	    "nitrace/50"
+	    "exodium/70"
+	  ],
+      "time": 1150
+    }
+  ],
+  "category": "units",
+  "research": "core-hina"
+  "requirements": [
+    "nitrace/60",
+    "pionide/80",
+    "damiud/70"
+  ]
+}

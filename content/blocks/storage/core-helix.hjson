@@ -1,0 +1,20 @@
+type: CoreBlock
+name: Core: Helix
+description: Another Ingenuty core.Decently armored with alot of items storage.
+requirements: [
+  pionide/2200
+  damiud/1800
+  exodium/ 1200
+  nitrace/1500
+]
+isFirstTier: false
+size: 4
+squareSprite: true
+alwaysUnlocked: false
+unitType: ventirui
+armor: 3
+health: 2450
+itemCapacity: 7000
+unitCapModifier: 18
+category: effect
+research: core-hina

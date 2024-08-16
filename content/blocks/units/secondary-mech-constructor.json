@@ -1,0 +1,40 @@
+ {
+  "name": "Secondary Mech Constructor",
+  "type": "Reconstructor",
+  "researchCostMultiplier": 0.09,
+  "size": 5,
+  "constructTime": 1700,
+  "consumes": {
+    "power": 3.1,
+    "items": {
+      "items": [
+        "exodium/145",
+        "nitrace/100",
+        "ninitin/120",
+        "damiud/250",
+	    "pionide/300",
+	  ]
+    "liquids" : {
+	  "liquids": [
+	    "hydrogene/0.2"
+	    "liquid-pionide/0.8"
+	   ]
+	}
+	}
+  },
+  "requirements": [
+    "exodium/20",
+    "nitrace/25",
+    "ninitin/15",
+    "damiud/40",
+	"pionide/70"
+  ],
+  "upgrades": [
+    [
+      "mischa",
+      "xephyr"
+    ]
+  ],
+  "category": "units",
+  "research": "junior-spider-factory"
+}

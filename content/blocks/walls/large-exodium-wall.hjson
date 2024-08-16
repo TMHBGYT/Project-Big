@@ -1,0 +1,13 @@
+type: Wall
+name: Exodium wall
+description: A basic 2x2 wall made with exodium.
+size: 2
+armor: 4
+health: 3020
+squareSprite: true
+requirements: [
+  exodium/6
+]
+research: core-hina
+category: defense
+researchCostMultiplier: 0.09

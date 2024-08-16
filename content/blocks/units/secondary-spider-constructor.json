@@ -1,0 +1,37 @@
+ {
+  "name": "Secondary Spider Constructor",
+  "type": "Reconstructor",
+  "researchCostMultiplier": 0.09,
+  "size": 5,
+  "constructTime": 1670,
+  "consumes": {
+    "power": 3.0,
+    "items": {
+      "items": [
+        "exodium/175",
+        "nitrace/135",
+        "ninitin/75",
+        "damiud/250",
+	    "pionide/275",
+	  ]
+    "liquids" : {
+	  "liquids": [
+	    "hydrogene/0.5"
+	    "oxygen/0.5"
+	   ]
+	}
+	}
+  },
+  "requirements": [
+    "pionide/120",
+    "nitrace/25"  
+  ],
+  "upgrades": [
+    [
+      "oryn",
+      "galix"
+    ]
+  ],
+  "category": "units",
+  "research": "junior-spider-factory"
+}

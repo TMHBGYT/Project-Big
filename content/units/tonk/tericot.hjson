@@ -61,5 +61,5 @@ weapons: [
     }
   }
 ]
-research: advanced-t2-recontructor
+research: elixer
 researchCostMultiplier: 0.05

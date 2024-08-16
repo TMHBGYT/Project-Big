@@ -31,12 +31,13 @@ mechLegColor: 44413c
 	inacuracy: 15
 	rotate: false
 	mirror: false
+	shootSound: shootBig
 	shoot: {
 	shots: 4
 	shotDelay: 8
 	}
 	bullet: {
-    type: FlakBulletType,
+    type: FlakBulletType
     width: 8
 	height: 15
 	damage: 54
@@ -47,9 +48,9 @@ mechLegColor: 44413c
 	shootEffect: shootBig,
     smokeEffect: shootSmallSmoke,
 	speed: 2
-	lifetime: 85
+	lifetime: 70
 	collidesGround: true
         } 
     }
 ]
-research: level1-unit-module
+research: vulcan

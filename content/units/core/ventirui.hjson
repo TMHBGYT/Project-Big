@@ -1,0 +1,38 @@
+type: mech
+canBoost: true
+groundLayer: 65
+name: Ventirui
+description: Protects Core : Helix.
+health: 450
+armor: 4
+mineFloor: true
+mineWalls: true
+speed: 1.4
+hitSize: 7
+isEnemy: false
+mineSpeed: 4.8
+mineTier: 1
+buildSpeed: 0.5
+drag: 0.3
+itemCapacity: 35
+alwaysUnlocked: true
+outlineColor: 42413e
+weapons: [
+  {
+    name: ventirui-weapon
+    x: 5
+    y: -1
+    mirror: true
+	reload: 25
+    ejectEffect: casing1
+    bullet: {
+      type: LightningBulletType
+      lightning: 1
+      lightningLength: 31
+      damage: 35
+      status: shocked
+      chargeEffect: lightningCharge
+      buildingDamageMultiplier: 0.01
+    }
+  }
+]

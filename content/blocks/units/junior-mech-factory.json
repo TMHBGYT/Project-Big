@@ -1,0 +1,44 @@
+{
+ "name": "Junior Mech Factory",
+ "type": "UnitFactory",
+  "researchCostMultiplier": 0.09,
+  "size": 3,
+  "consumes": {
+    "power": 1.9
+  },
+  "plans": [
+    {
+      "unit": "viking",
+      "requirements": [
+        "nitrace/10"
+	    "pionide/25"
+	  ],
+      "time": 1050
+    }
+	{
+      "unit": "vulcan",
+      "requirements": [
+        "nitrace/75"
+	    "damiud/90"
+	    "pionide/110"
+	  ],
+      "time": 1100
+    },
+    {
+      "unit": "mischa",
+      "requirements": [
+        "pionide/150"
+	    "nitrace/90"
+	    "exodium/50"
+	  ],
+      "time": 1200
+    }
+  ],
+  "category": "units",
+  "research": "core-hina"
+  "requirements": [
+    "nitrace/60",
+    "pionide/80",
+    "damiud/70"
+  ]
+}

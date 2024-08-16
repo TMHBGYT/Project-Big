@@ -129,5 +129,5 @@ weapons: [
     }    
   }
 ]
-research: advanced-t2-recontructor
+research: tericot
 researchCostMultiplier: 0.05
