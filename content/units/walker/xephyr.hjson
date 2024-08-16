@@ -1,0 +1,59 @@
+type: mech
+name: Xephyr
+description: All i can say,is that it isnt gentle.
+speed: 0.3
+flying: false
+health: 9550
+hitSize: 25
+armor: 14
+outlineColor: 44413c
+mechLegColor: 44413c
+  weapons: [
+    {
+    x: 14
+    y: 1
+    name: xephyr-weapon-r
+    reload: 125
+    rotate: false
+    mirror: false
+	top: false
+	bullet: {
+    spawnUnit: pb-t4-missile
+    }
+    }
+    {
+    x: -14
+    y: 1
+    name: xephyr-weapon-l
+    reload: 32
+    top: false
+	rotate: false
+	mirror: false
+	shoot: {
+	type: ShootSpread
+	shots: 5
+	spread: 2
+	}	
+	shootSound: shotgun
+	bullet: {
+    type: FlakBulletType,
+    width: 6
+	height: 6
+	trailLength: 7
+	trailWidth: 1
+	trailColor: ffffff
+	frontColor: ffffff
+	backColor: ffffff
+	damage: 10
+	splashDamage: 10
+	splashDamageRadius: 12
+	scaledSplashDamage: true
+	knockback: 4 
+	shootEffect: shootBig,
+    smokeEffect: shootSmallSmoke,
+	speed: 1
+	lifetime: 85
+	collidesGround: true
+    } 
+  }
+]

@@ -1,90 +1,55 @@
 type: mech
 name: Mischa
-description: Fires green missiles on the the right and blue trailed bullets on the left.
-speed: 0.2
+description: Hurls a few bullets to weaken enemies.At the same time,a missile launcher is also equiped.
+speed: 0.4
 flying: false
-canBoost: false
 health: 1000
-hitSize: 45
+hitSize: 21
 canBoost: true
 armor: 10
 outlineColor: 44413c
 mechLegColor: 44413c
-abilities: [
-  {
-    type: ShieldArcAbility
-    max: 250
-    regen: 0.03
-    angle: 65
-    cooldown: 300
-    whenShooting: true
-    width: 4
-    x: 0
-    y: -5
-    radius: 45
-  }
-]
   weapons: [
     {
-    x: 16
-    y: 0
-    name: mischa-weapon-r
-    reload: 120
+    x: 14
+    y: 1
+    name: mischa-weapon-l
+    reload: 165
     rotate: false
     mirror: false
 	top: false
-	shoot: {
-      shots: 2
-      shotDelay: 9
-    }
 	bullet: {
-    type: MissileBulletType
-    damage: 64
-    splashDamage: 56
-	splashDamageRadius: 34
-	scaledSplashDamage: true
-	shootEffect: shootBig
-    smokeEffect: shootSmallSmoke
-	width: 8
-	height: 15
-    backColor: 38F670
-    lightColor: 38F670
-	speed: 2
-	lifetime: 80
+    spawnUnit: pb-t3-missile
     }
     }
     {
-    x: -16
-    y: 0
-    name: mischa-weapon-l
-    reload: 95
+    x: -14
+    y: 1
+    name: mischa-weapon-r
+    reload: 45
     top: false
+	inacuracy: 15
 	rotate: false
-    mirror: false
+	mirror: false
 	shoot: {
-      shots: 3
-      shotDelay: 6
-    }
+	shots: 4
+	shotDelay: 8
+	}
 	bullet: {
-    type: BasicBulletType,
+    type: FlakBulletType,
     width: 8
 	height: 15
-	damage: 26
-    splashDamage: 48
-	splashDamageRadius: 26
+	damage: 54
+	splashDamage: 24
+	splashDamageRadius: 34
 	scaledSplashDamage: true
+	status: weakened
 	shootEffect: shootBig,
     smokeEffect: shootSmallSmoke,
-	weaveScale: 7
-	weaveMag: 2
-	trailLength: 16
-    trailWidth: 2
-    trailColor: 2583DB
-    backColor: 2583DB
-    lightColor: 2583DB
 	speed: 2
 	lifetime: 85
-	}
-  }
+	collidesGround: true
+        } 
+    }
 ]
 research: level1-unit-module
