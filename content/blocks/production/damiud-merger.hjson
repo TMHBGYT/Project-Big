@@ -18,7 +18,7 @@ craftTime: 55
 outputItem:  damiud/1
 category: crafting
 research: suagine-maker
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1
 requirements: [
   pionide/35
 ]

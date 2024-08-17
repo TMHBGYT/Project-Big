@@ -19,7 +19,7 @@ craftTime: 35
 outputItem: ninitin/2
 category: crafting
 research: water-seprator
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1
 requirements: [
   pionide/33
   nitrace/12

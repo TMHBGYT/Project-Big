@@ -57,4 +57,5 @@ abilities: [
     range: 145
   }
 ]
-research: advanced-unit-factory
+research: junior-air-factory
+researchCostMultiplier: 0.1

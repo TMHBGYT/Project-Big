@@ -63,3 +63,4 @@ weapons: [
   }
 ]
 research: lipo
+researchCostMultiplier: 0.1

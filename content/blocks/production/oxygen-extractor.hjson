@@ -11,7 +11,7 @@ size: 3
 squareSprite: true
 name: Oxygen Extractor
 description: Extracts Oxygen from the required tiles.
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1
 drawer: [
   {
     type: DrawDefault

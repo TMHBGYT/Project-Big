@@ -47,4 +47,4 @@ weapons: [
   }
 ]
 research: junior-tank-factory
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1

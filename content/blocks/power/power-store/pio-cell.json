@@ -10,5 +10,5 @@
 	],
 	"consumes": { "powerBuffered": 50000 },
 	"research": "pionide-reactor",
-    "researchCostMultiplier": "0.05"
+    "researchCostMultiplier": "0.1"
 }

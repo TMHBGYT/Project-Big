@@ -53,4 +53,4 @@ requirements: [
 category: turret
 research: insiuate
 shootSound: shootSnap
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1

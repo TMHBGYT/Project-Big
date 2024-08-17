@@ -8,6 +8,6 @@ squareSprite: true
 requirements: [
   exodium/6
 ]
-research: core-hina
+research: exodium-wall
 category: defense
-researchCostMultiplier: 0.09
+researchCostMultiplier: 0.1

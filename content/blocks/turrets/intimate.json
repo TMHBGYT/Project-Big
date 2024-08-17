@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Intimate
 description: A 2x2 turret that fires flak bullets in ontervals of 4.
-targetAir: false
+targetAir: true
 targetGround: true
 health: 150
 size: 2
@@ -37,6 +37,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 8
     collidesGround: true
+	collidesAir: true
 	reloadMultiplier: 1
   }
   damiud: {
@@ -48,6 +49,7 @@ ammoTypes: {
 	damage: 11
     width: 10
     collidesGround: true	
+	collidesAir: true
 	height: 15
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -59,6 +61,7 @@ ammoTypes: {
 	speed: 3
 	splashDamage: 35
     collidesGround: true	
+	collidesAir: true	
 	splashDamageRadius: 24
 	ammoPerShot: 40
 	damage:13
@@ -78,4 +81,4 @@ requirements: [
 category: turret
 research: oblitiate
 shootSound: shootSnap
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1

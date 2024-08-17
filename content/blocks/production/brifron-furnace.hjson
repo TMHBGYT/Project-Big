@@ -31,7 +31,7 @@ outputItem: brifron/1
 outputLiquid: liquid-pionide/0.3
 category: crafting
 research: suagine-maker
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.1
 requirements: [
   pionide/35
   nitrace/12

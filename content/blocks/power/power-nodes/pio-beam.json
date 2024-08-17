@@ -7,9 +7,10 @@
   "laserWidth": 0.5,
   "range": 12,
   "requirements": [
-    "pionide/5"
+    "pionide/6",
+    "damiud/3"
   ],
   "category": "power",
   "research": "pio-node",
-  "researchCostMultiplier": "0.05"
+  "researchCostMultiplier": "0.1"
 }

@@ -15,7 +15,7 @@ range: 176
 outlineColor: 42413e
 shootSound: laser
 chargeSound: lasercharge
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.1
 shootType: {
   type: LightningBulletType
   lightning: 3
