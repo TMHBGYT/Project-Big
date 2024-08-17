@@ -1,8 +1,0 @@
-name: Ice
-description: A material used in turrets.
-hardness: 0.8
-cost: 0.5
-alwaysUnlocked: false
-color: 8f8d87
-research: exodium
-hiddenOnPlanets: [serpulo, erekir]
