@@ -38,4 +38,4 @@ weapons: [
     }    
   ]
 research: junior-air-factory
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

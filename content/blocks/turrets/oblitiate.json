@@ -30,4 +30,4 @@ requirements: [
 category: turret
 research: core-hina
 shootSound: shootSnap
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

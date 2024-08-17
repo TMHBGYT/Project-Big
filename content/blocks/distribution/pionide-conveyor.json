@@ -1,13 +1,12 @@
-{
-    "type": "StackConveyor",
-    "name": "Pionide Conveyor",
-    "description": "A normal stack Conveyor",
-    "category": "distribution",
-    "alwaysUnlocked": true,
-	"health": 35,
-    "speed": 0.10,
-    "requirements": [
-        "pionide/2"
-    ],
-    "research": "core-hina"
-}
+type :  StackConveyor  
+name :  Pionide Conveyor  
+description :  A normal stack Conveyor  
+category :  distribution  
+alwaysUnlocked : true 
+health : 35 
+speed : 0.10 
+requirements : [
+    pionide/2 
+] 
+research :  core-hina 
+researchCostMultiplier: 0.5

@@ -10,4 +10,4 @@ research: pionide-wall
 requirements: [
   pionide/20
 ] 
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

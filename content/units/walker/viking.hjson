@@ -37,4 +37,4 @@ mechLegColor: 44413c
     }			
 ]
 research: junior-mech-factory
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

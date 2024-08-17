@@ -63,4 +63,4 @@ weapons: [
   }
 ]
 research: oryn
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

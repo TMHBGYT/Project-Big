@@ -36,7 +36,7 @@ craftTime: 65
 outputLiquid: suagine/0.3
 category: crafting
 research: core-hina
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5
 requirements: [
   pionide/35
   nitrace/12

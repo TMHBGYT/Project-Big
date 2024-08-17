@@ -62,4 +62,4 @@ weapons: [
   }
 ]
 research: elixer
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

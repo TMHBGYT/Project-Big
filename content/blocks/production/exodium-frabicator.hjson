@@ -29,7 +29,7 @@ craftTime: 35
 outputItem: exodium/2
 category: crafting
 research: brifron-furnace
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5
 requirements: [
   damiud/12
   nitrace/3

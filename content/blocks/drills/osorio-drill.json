@@ -9,14 +9,14 @@
   "requirements": [
     {
       "item": "pionide",
-      "amount": 16
+      "amount": 12
     } 
     {
       "item": "damiud",
-      "amount": 9
+      "amount": 6
     }
   ],
   "category": "production",
   "research": "ligment-drill",
-  "researchCostMultipier": 0.01
+  "researchCostMultipier": 0.5
 }

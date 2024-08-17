@@ -54,4 +54,4 @@ mechLegColor: 44413c
     }
 ]
 research: vulcan
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.5

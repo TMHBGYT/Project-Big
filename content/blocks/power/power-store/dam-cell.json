@@ -10,5 +10,5 @@
 	],
 	"consumes": { "powerBuffered": 75000 },
 	"research": "pio-cell",
-    "researchCostMultiplier": "0.1"
+    "researchCostMultiplier": "0.5"
 }

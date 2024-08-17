@@ -9,7 +9,7 @@ craftTime: 65
 outputItem: ice/1
 category: crafting
 research: exodium-frabicator
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.5
 requirements: [
   exodium/35
   nitrace/12

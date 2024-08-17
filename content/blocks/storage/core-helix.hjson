@@ -18,4 +18,4 @@ itemCapacity: 7000
 unitCapModifier: 18
 category: effect
 research: core-hina
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.05

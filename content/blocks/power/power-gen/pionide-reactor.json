@@ -53,5 +53,5 @@ drawer: {
   ],
   "category": "power",
   "research": "pio-node",
-  "researchCostMultiplier": "0.1"
+  "researchCostMultiplier": "0.5"
 }

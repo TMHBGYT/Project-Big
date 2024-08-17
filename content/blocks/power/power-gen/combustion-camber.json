@@ -36,5 +36,5 @@ drawer: {
   ],
   "category": "power",
   "research": "pio-beam",
-   "researchCostMultiplier": "0.1"
+   "researchCostMultiplier": "0.5"
 }

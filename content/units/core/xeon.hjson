@@ -19,10 +19,11 @@ alwaysUnlocked: true
 outlineColor: 42413e
 weapons: [
   {
-    name: xeon-weapon
+    name: tericot-weapon-small
     x: 5
     y: -1
-    mirror: true
+    rotate: true
+	mirror: true
 	reload: 36
     ejectEffect: casing1
     bullet: {
