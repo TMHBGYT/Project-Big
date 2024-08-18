@@ -87,9 +87,10 @@ mechLegColor: 44413c
             damage: 10
 	        splashDamage: 10
 	        splashDamageRadius: 5
-	        scaledSplashDamage: true    
+	        scaledSplashDamage: true      
 	    } 
-    }
-}
+      }
+	}
+  }
 ]
 research: mischa
