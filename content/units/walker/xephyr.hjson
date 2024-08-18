@@ -34,7 +34,7 @@ mechLegColor: 44413c
 	shots: 5
 	spread: 2
 	}	
-	shootSound: shotgun
+	shootSound: shootBig
 	bullet: {
     type: FlakBulletType,
     width: 6
@@ -44,8 +44,8 @@ mechLegColor: 44413c
 	trailColor: ffffff
 	frontColor: ffffff
 	backColor: ffffff
-	damage: 10
-	splashDamage: 10
+	damage: 24
+	splashDamage: 15
 	splashDamageRadius: 12
 	scaledSplashDamage: true
 	knockback: 4 
@@ -54,7 +54,41 @@ mechLegColor: 44413c
 	speed: 1
 	lifetime: 85
 	collidesGround: true
-    } 
-  }
+    fragBullets: 2
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragRandomSpread: 0
+    fragSpread: 65
+    fragBullet: {
+        type: BasicBulletType
+        speed: 1
+        lifetime: 25
+        width: 6
+        height: 6
+        damage: 15
+	    splashDamage: 15
+	    splashDamageRadius: 8
+	    scaledSplashDamage: true
+        fragBullets: 4
+        fragLifeMin: 1
+        fragLifeMax: 2
+        fragVelocityMin: 1
+        fragVelocityMax: 2
+        fragRandomSpread: 0
+        fragSpread: 220
+        fragBullet: {
+            type: BasicBulletType
+            speed: 1
+            lifetime: 28
+            width: 6
+            height: 6
+            damage: 10
+	        splashDamage: 10
+	        splashDamageRadius: 5
+	        scaledSplashDamage: true    
+	    } 
+    }
 ]
 research: mischa
