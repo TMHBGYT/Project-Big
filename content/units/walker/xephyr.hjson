@@ -54,7 +54,7 @@ mechLegColor: 44413c
 	speed: 1
 	lifetime: 85
 	collidesGround: true
-    fragBullets: 2
+    fragBullets: 1
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
@@ -71,13 +71,13 @@ mechLegColor: 44413c
 	    splashDamage: 15
 	    splashDamageRadius: 8
 	    scaledSplashDamage: true
-        fragBullets: 4
+        fragBullets: 2
         fragLifeMin: 1
         fragLifeMax: 2
         fragVelocityMin: 1
         fragVelocityMax: 2
         fragRandomSpread: 0
-        fragSpread: 220
+        fragSpread: 75
         fragBullet: {
             type: BasicBulletType
             speed: 1
