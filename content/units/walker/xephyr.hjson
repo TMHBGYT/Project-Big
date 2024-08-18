@@ -44,15 +44,14 @@ mechLegColor: 44413c
 	trailColor: ffffff
 	frontColor: ffffff
 	backColor: ffffff
-	damage: 24
-	splashDamage: 15
-	splashDamageRadius: 12
-	scaledSplashDamage: true
-	knockback: 4 
+	damage: 54
+	splashDamage: 54
+	splashDamageRadius: 117
+	knockback: 6
 	shootEffect: shootBig,
     smokeEffect: shootSmallSmoke,
 	speed: 1
-	lifetime: 85
+	lifetime: 95
 	collidesGround: true
     fragBullets: 1
     fragLifeMin: 1
@@ -64,14 +63,19 @@ mechLegColor: 44413c
     fragBullet: {
         type: BasicBulletType
         speed: 1
-        lifetime: 25
+        lifetime: 45
         width: 6
         height: 6
-        damage: 15
-	    splashDamage: 15
-	    splashDamageRadius: 8
-	    scaledSplashDamage: true
-        fragBullets: 2
+        damage: 34
+	    splashDamage: 34
+	    splashDamageRadius: 12
+	    trailLength: 7
+	    trailWidth: 1
+	    trailColor: ffffff
+	    frontColor: ffffff
+	    backColor: ffffff        
+		knockback: 6
+		fragBullets: 2
         fragLifeMin: 1
         fragLifeMax: 2
         fragVelocityMin: 1
@@ -84,11 +88,16 @@ mechLegColor: 44413c
             lifetime: 28
             width: 6
             height: 6
-            damage: 10
-	        splashDamage: 10
-	        splashDamageRadius: 5
-	        scaledSplashDamage: true      
-	    } 
+            damage: 27
+	        splashDamage: 27
+	        splashDamageRadius: 8   
+	        knockback: 6
+			trailLength: 7
+	        trailWidth: 1
+	        trailColor: ffffff
+	        frontColor: ffffff
+	        backColor: ffffff
+		} 
       }
 	}
   }
