@@ -1,10 +1,10 @@
 localizedName: Cave
 description: Another weird sector with annoying terrain.Take advantage of the core tile up there.
-captureWave: 20
+captureWave: 25
 planet: ingenuty
-sector: 7
+sector: 12
 research: core-hina
-difficulty: 2
+difficulty: 3
 research: {
   parent: gudo
   objectives: [

@@ -130,3 +130,4 @@ weapons: [
   }
 ]
 research: tericot
+researchCostMultiplier: 1.2

@@ -58,3 +58,4 @@ abilities: [
   }
 ]
 research: junior-air-factory
+researchCostMultiplier: 1.2

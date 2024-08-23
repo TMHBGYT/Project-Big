@@ -46,7 +46,7 @@ mechLegColor: 44413c
 	backColor: ffffff
 	damage: 54
 	splashDamage: 54
-	splashDamageRadius: 117
+	splashDamageRadius: 24
 	knockback: 6
 	shootEffect: shootBig,
     smokeEffect: shootSmallSmoke,
@@ -103,3 +103,4 @@ mechLegColor: 44413c
   }
 ]
 research: mischa
+researchCostMultiplier: 1.2

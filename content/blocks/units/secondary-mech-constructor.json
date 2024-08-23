@@ -8,11 +8,11 @@
     "power": 3.1,
     "items": {
       "items": [
-        "exodium/145",
-        "nitrace/100",
-        "ninitin/120",
-        "damiud/250",
-	    "pionide/300",
+        "exodium/1450",
+        "nitrace/1750",
+        "ninitin/1100",
+        "damiud/2200",
+	    "pionide/2450",
 	  ]
     "liquids" : {
 	  "liquids": [

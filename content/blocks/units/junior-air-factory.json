@@ -10,24 +10,24 @@
     {
       "unit": "kiki",
       "requirements": [
-        "nitrace/35"
-	    "damiud/10"
+        "nitrace/100"
+	    "damiud/75"
 	  ],
       "time": 975
     },
     {
       "unit": "diamond",
       "requirements": [
-        "pionide/85"
-	    "nitrace/35"
+        "pionide/215"
+	    "nitrace/145"
 	  ],
       "time": 1025
     },
 	{
       "unit": "pioneer",
       "requirements": [
-        "pionide/45"
-	    "damiud/15"
+        "pionide/90"
+	    "damiud/120"
 	  ],
       "time": 1040
     }

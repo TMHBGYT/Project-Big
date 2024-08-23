@@ -10,26 +10,26 @@
     {
       "unit": "nuli",
       "requirements": [
-        "nitrace/15"
-	    "pionide/25"
+        "nitrace/90"
+	    "pionide/90"
 	  ],
       "time": 1075
     }
     {
       "unit": "lipo",
       "requirements": [
-        "nitrace/95"
-	    "damiud/30"
-	    "pionide/65"
+        "nitrace/145"
+	    "damiud/75"
+	    "pionide/220"
 	  ],
       "time": 1125
     },
     {
       "unit": "oryn",
       "requirements": [
-	    "nitrace/100"
-	    "damiud/40"
-	    "exodium/70"
+	    "nitrace/750"
+	    "damiud/400"
+	    "exodium/550"
 	  ],
       "time": 1250
     }

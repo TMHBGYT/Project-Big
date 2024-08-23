@@ -59,3 +59,4 @@ abilities: [
   }
 ]
 research: kiki
+researchCostMultiplier: 1.2

@@ -40,3 +40,12 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 15
+    max: 60
+    reload: 175
+    range: 155
+  }
+]

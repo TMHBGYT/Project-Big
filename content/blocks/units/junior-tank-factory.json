@@ -10,26 +10,26 @@
     {
       "unit": "elixer",
       "requirements": [
-        "nitrace/10"
-	    "pionide/25"
+        "nitrace/90"
+	    "pionide/115"
 	  ],
       "time": 950
     }
 	{
       "unit": "tericot",
       "requirements": [
-        "nitrace/55"
-	    "damiud/100"
-	    "pionide/130"
+        "nitrace/220"
+	    "damiud/205"
+	    "pionide/185"
 	  ],
       "time": 1090
     },
     {
       "unit": "sindicate",
       "requirements": [
-        "pionide/150"
-	    "nitrace/50"
-	    "exodium/70"
+        "pionide/1000"
+	    "nitrace/550"
+	    "exodium/350"
 	  ],
       "time": 1150
     }

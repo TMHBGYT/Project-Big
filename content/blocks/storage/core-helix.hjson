@@ -4,7 +4,7 @@ description: Another Ingenuty core.Decently armored with alot of items storage.
 requirements: [
   pionide/2200
   damiud/1800
-  exodium/ 1200
+  exodium/1200
   nitrace/1500
 ]
 isFirstTier: false
@@ -13,9 +13,14 @@ squareSprite: true
 alwaysUnlocked: false
 unitType: ventirui
 armor: 3
-health: 2450
+health: 3245
 itemCapacity: 7000
 unitCapModifier: 18
 category: effect
-research: core-hina
+research: {
+  planet: ingenuty
+  root: false
+  name: Ingenuty
+  requiresUnlock: true
+}
 researchCostMultiplier: 0.05

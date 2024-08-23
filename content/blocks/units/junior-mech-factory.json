@@ -10,26 +10,26 @@
     {
       "unit": "viking",
       "requirements": [
-        "nitrace/10"
-	    "pionide/25"
+        "nitrace/90"
+	    "pionide/125"
 	  ],
       "time": 1050
     }
 	{
       "unit": "vulcan",
       "requirements": [
-        "nitrace/75"
-	    "damiud/90"
-	    "pionide/110"
+        "nitrace/250"
+	    "damiud/245"
+	    "pionide/325"
 	  ],
       "time": 1100
     },
     {
       "unit": "mischa",
       "requirements": [
-        "pionide/150"
-	    "nitrace/90"
-	    "exodium/50"
+        "pionide/950"
+	    "nitrace/900"
+	    "exodium/450"
 	  ],
       "time": 1200
     }

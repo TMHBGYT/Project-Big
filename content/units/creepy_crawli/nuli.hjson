@@ -37,3 +37,4 @@ weapons: [
   }
 ]
 research: junior-spider-factory
+researchCostMultiplier: 1.2
