@@ -1,0 +1,30 @@
+{
+  "name": "Hydrogen Compressor Drill",
+  "description": "Uses Hydrogen and power to compress air and ignite it,mining ores.",
+  "type": "Drill",
+  "size": 3,
+  "tier": 4,
+  "drillTime": 245,
+  "alwaysUnlocked": false,
+  "consumes": {
+	"power": 2.5
+	 "liquid": "hydrogene/0.4"
+}	
+  "requirements": [
+    {
+      "item": "pionide",
+      "amount": 50
+    } 
+    {
+      "item": "damiud",
+      "amount": 15
+    }
+    {
+      "item": "exodium",
+      "amount": 35
+    } 
+  ],
+  "category": "production",
+  "research": "osorio-drill",
+  "researchCostMultipier": 0.5
+}

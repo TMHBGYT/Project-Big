@@ -7,8 +7,8 @@ accurateDelay: false
 inaccuracy: 1
 squaresprite: false
 shoot: {
-  firstShotDelay: 75
-  shots: 10
+  firstShotDelay: 150
+  shots: 5
   shotDelay: 12
 }
 range: 176
@@ -21,14 +21,13 @@ shootType: {
   type: LightningBulletType
   lightning: 3
   lightningLength: 27
-  damage: 110
+  damage: 65
   status: shocked
   buildingDamageMultiplier: 0.5
   chargeEffect: lightningCharge
 }
 category: turret
 squareSprite: true
-research: striker
 requirements: [
   pionide/50
   exodium/55

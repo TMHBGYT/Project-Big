@@ -1,0 +1,55 @@
+type: flying
+name: Succesor
+description: A nible,versatile,medium sized air unit used for attacks/defence.Has acidic injected bullets.
+speed: 2.4
+accel: 0.1
+drag: 0.08
+health: 355
+alwaysUnlocked: false
+itemCapacity: 35
+rotateSpeed: 2.6
+hitSize: 7
+armor: 5
+engineOffset: 2
+flying: true
+faceTarget: true
+weapons: [
+    {
+      name: pioneer-gun
+      reload: 78
+      x: 3
+      y: 2
+      top: false
+      rotate: false
+      inaccuracy: 15
+      shootY: 3
+      ejectEffect: casing2
+      shootSound: shoot-big-artillery
+      shoot: {
+        shots: 5
+        shotDelay: 2
+      }
+	  bullet: {
+        type: BasicBulletType
+        damage: 15
+        splashDamage: 18
+		splashDamageRadius: 12
+		speed:  3
+        width: 7
+        height: 7
+		frontColor: E89259
+		backColor: E8B259
+		trailLength: 2
+		trailWidth: 3
+		trailColor: E8A559
+		weaveMag: 1
+		weaveScale: 1
+		status: corroding
+		shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+		lifetime: 45
+	  }
+    }    
+  ]
+research: pioneer
+researchCostMultiplier: 1.2

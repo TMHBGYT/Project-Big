@@ -1,0 +1,22 @@
+  type: ShockMine
+  name: Incendiary Mine
+  description: Explodes and sets enemies on fire. 
+  hasShadow: false
+  health: 55
+  damage: 110
+  tileDamage: 17
+  length: 28
+  tendrils: 8
+  category: effect
+  research: core-hina
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 75
+    splashDamageRadius:14
+    killShooter: true
+    status: burning
+  } 
+  requirements: [
+    exodium/45
+  ]
+researchCostMultiplier: 0.5

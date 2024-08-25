@@ -1,0 +1,6 @@
+name: Corroding
+damage: 0.3
+speedMultiplier: 0.7
+damageMultiplier: 0.7
+reloadMultiplier: 0.7
+healthMultiplier: 0.7

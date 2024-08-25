@@ -1,0 +1,32 @@
+type: ForceProjector
+name: Barrier Projector
+description: Supplys a shield.
+size: 3
+squareSprite: false
+shieldHealth: 850
+cooldownNormal: 1.8
+cooldownLiquid: 1.25
+cooldownBrokenBase: 0.45
+coolantConsumption: 0.1
+category: effect
+research: ninitin-mender
+requirements: [
+  nitrace/120
+  nintin/25
+  exodium/45
+]
+consumes: {
+  power: 3
+  items: {
+    items: [
+      exodium/2
+    ]
+    optional: true
+    booster: true
+  }
+}
+radius: 135
+researchCostMultiplier: 0.5
+phaseRadiusBoost: 95
+phaseShieldBoost: 350
+phaseUseTime: 210

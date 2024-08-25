@@ -1,7 +1,7 @@
 {
   "type": "ConsumeGenerator",
   "name": "Pionide Reactor",
-  "description": "Mixes liquid pionide with hydrogen to create chemical based power.",
+  "description": "Mixes liquid pionide,water and nitrace to create chemical based power.",
   "size": 2,
   "hasPower": true,
   "hasItems": true,
@@ -9,9 +9,12 @@
   "powerProduction": 8,
   consumes: {
     liquids: [
-     hydrogene/0.4
+     water/0.4
      liquid-pionide/0.6
 	]
+    items: [
+	 nitrace/2
+    ]
 }
 drawer: {
   type: DrawMulti

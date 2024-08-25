@@ -30,6 +30,15 @@
 	    "damiud/120"
 	  ],
       "time": 1040
+    },
+    {
+      "unit": "succesor",
+      "requirements": [
+        "pionide/215"
+	    "nitrace/145" 
+	    "exodium/125"
+	  ],
+      "time": 1025
     }
   ],
   "category": "units",

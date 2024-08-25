@@ -45,8 +45,8 @@ weapons: [
     mirror: false
 	inaccuracy: 0
 	shoot: {
-      shots: 8
-      shotDelay: 6
+      shots: 7
+      shotDelay: 3
     }
 	bullet: {
      type: LiquidBulletType

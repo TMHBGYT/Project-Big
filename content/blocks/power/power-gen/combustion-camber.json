@@ -5,11 +5,11 @@
   "size": 2,
   "hasPower": true,
   "hasItems": true,
-  "itemDuration": 125,
-  "powerProduction": 6,
+  "itemDuration": 100,
+  "powerProduction": 5.5,
   consumes: {
     items: [
-     brifron/3
+     brifron/2
     ]
 }
 drawer: {

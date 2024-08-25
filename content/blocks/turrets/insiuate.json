@@ -22,8 +22,8 @@ lifetime: 300
 ammoTypes: {
   pionide: {
     speed: 6
-	damage: 35
-    width: 4
+	damage: 45
+    width: 8
 	height: 8
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -34,8 +34,8 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 42
-    width: 4
+	damage: 66
+    width: 11
 	height: 11
     shootEffect: shootBig
     smokeEffect: shootBigSmoke

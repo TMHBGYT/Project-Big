@@ -22,8 +22,10 @@ lifetime: 240
 ammoTypes: {
   pionide: {
     speed: 6
-	damage: 46
-    width: 4
+	damage: 53
+    splashDamage: 35
+	splashDamageRadius: 10
+	width: 8
 	height: 8
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -34,13 +36,30 @@ ammoTypes: {
   }
   damiud: {
     speed: 6
-	damage: 63
-    width: 4
-	height: 11
+	damage: 67
+    splashDamage: 42
+	splashDamageRadius: 12
+	width: 9
+	height: 9
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.7
+    ammoPerShot: 4
+	lightRadius:4
+  }
+    exodium: {
+    speed: 6
+	damage: 74
+    splashDamage: 56
+	splashDamageRadius: 14
+	width: 11
+	height: 11
+    status: weakened
+	shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    reloadMultiplier: 0.5
     ammoPerShot: 4
 	lightRadius:4
   }

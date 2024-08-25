@@ -11,13 +11,12 @@ ammoUseEffect: casing3
 shootCone: 25
 rotateSpeed: 1
 range: 130
-lifetime: 140
 ammoTypes: {
   pionide: {
     type: LaserBulletType
-	damage: 23
+	damage: 33
 	ammoPerShot: 4
-	length: 60
+	length: 130
     width: 0.5
     ammoMultiplier: 5
     reloadMultiplier: 1
