@@ -7,7 +7,7 @@ drag: 0.08
 health: 355
 alwaysUnlocked: false
 itemCapacity: 35
-rotateSpeed: 2.6
+rotateSpeed: 4
 hitSize: 7
 armor: 5
 engineOffset: 2
@@ -24,22 +24,22 @@ weapons: [
       inaccuracy: 15
       shootY: 3
       ejectEffect: casing2
-      shootSound: shoot-big-artillery
+      shootSound: shot-echo
       shoot: {
         shots: 5
         shotDelay: 2
       }
 	  bullet: {
         type: BasicBulletType
-        damage: 15
-        splashDamage: 18
+        damage: 21
+        splashDamage: 20
 		splashDamageRadius: 12
-		speed:  3
-        width: 7
-        height: 7
+		speed:  2
+        width: 11
+        height: 11
 		frontColor: E89259
 		backColor: E8B259
-		trailLength: 2
+		trailLength: 3
 		trailWidth: 3
 		trailColor: E8A559
 		weaveMag: 1
@@ -47,7 +47,7 @@ weapons: [
 		status: corroding
 		shootEffect: shootSmall
         smokeEffect: shootSmallSmoke
-		lifetime: 45
+		lifetime: 75
 	  }
     }    
   ]
