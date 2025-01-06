@@ -3,7 +3,7 @@ name: Mischa
 description: Hurls a few bullets to weaken enemies.At the same time,a missile launcher is also equiped.
 speed: 0.4
 flying: false
-health: 1000
+health: 990
 hitSize: 21
 canBoost: true
 armor: 10
@@ -14,7 +14,7 @@ mechLegColor: 44413c
     x: 14
     y: 1
     name: mischa-weapon-l
-    reload: 165
+    reload: 185
     rotate: false
     mirror: false
 	top: false
@@ -40,8 +40,8 @@ mechLegColor: 44413c
     type: FlakBulletType
     width: 8
 	height: 15
-	damage: 54
-	splashDamage: 24
+	damage: 50
+	splashDamage: 20
 	splashDamageRadius: 34
 	scaledSplashDamage: true
 	status: weakened

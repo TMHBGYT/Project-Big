@@ -9,7 +9,7 @@ alwaysUnlocked: false
 itemCapacity: 35
 rotateSpeed: 4
 hitSize: 7
-armor: 5
+armor: 3
 engineOffset: 2
 flying: true
 faceTarget: true
@@ -21,7 +21,7 @@ weapons: [
       y: 2
       top: false
       rotate: false
-      inaccuracy: 15
+      inaccuracy: 10
       shootY: 3
       ejectEffect: casing2
       shootSound: shot-echo

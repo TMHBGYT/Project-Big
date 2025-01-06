@@ -52,8 +52,18 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 198
-      splashDamageRadius: 51
+      splashDamage: 155
+      splashDamageRadius: 35
+	  fragBullets: 5
+      fragLifeMin: 0.6
+      fragBullet: {
+      damage: 6
+      splashDamage: 24
+	  splashDamageRadius: 22
+	  speed: 1
+      lifetime: 13
+      height: 4
+      width: 4
 	}
   } 
 ]

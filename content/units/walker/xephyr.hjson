@@ -13,7 +13,7 @@ mechLegColor: 44413c
     x: 14
     y: 1
     name: xephyr-weapon-r
-    reload: 125
+    reload: 220
     rotate: false
     mirror: false
 	top: false
@@ -79,7 +79,7 @@ mechLegColor: 44413c
         fragLifeMin: 1
         fragLifeMax: 2
         fragVelocityMin: 1
-        fragVelocityMax: 2
+        fragVelocityMax: 1
         fragRandomSpread: 0
         fragSpread: 75
         fragBullet: {

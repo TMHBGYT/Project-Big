@@ -90,5 +90,7 @@ itemWhitelist: [
   "nitrace", 
   "damiud", 
   "pionide",
-  "damiud-fragment"
+  "damiud-fragment",
+  "exodium",
+  "ninitin"
 ]
