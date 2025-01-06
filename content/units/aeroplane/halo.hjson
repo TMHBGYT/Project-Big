@@ -1,0 +1,68 @@
+type: flying
+name: Halo
+description: A nible,versatile,medium sized air unit used for attacks/defence.Has both acidic injected bullets and a small missile.
+speed: 2.4
+accel: 0.1
+drag: 0.08
+health: 545
+alwaysUnlocked: false
+itemCapacity: 35
+rotateSpeed: 4
+hitSize: 7
+armor: 5
+engineOffset: 2
+flying: true
+faceTarget: true
+weapons: [
+    {
+    x: 3
+    y: -2
+    name: halo-weapon
+    reload: 75
+    rotate: false
+    mirror: false
+	top: false
+	bullet: {
+    spawnUnit: pb-litol-missile
+    }
+    }
+    {
+      name: pioneer-gun
+      reload: 78
+      x: 3
+      y: 2
+      top: false
+      rotate: false
+      mirror: false
+	  inaccuracy: 10
+      shootY: 3
+      ejectEffect: casing2
+      shootSound: shot-echo
+      shoot: {
+        shots: 5
+        shotDelay: 2
+      }
+	  bullet: {
+        type: BasicBulletType
+        damage: 35
+        splashDamage: 30
+		splashDamageRadius: 24
+		speed:  2
+        width: 11
+        height: 11
+		frontColor: E89259
+		backColor: E8B259
+		trailLength: 3
+		trailWidth: 3
+		trailColor: E8A559
+		weaveMag: 1
+		weaveScale: 1
+		status: corroding
+		shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+		lifetime: 100
+	  }
+    }    
+  ]
+research: pioneer
+researchCostMultiplier: 1.2
