@@ -13,7 +13,7 @@ squareSprite: true
 alwaysUnlocked: false
 unitType: ventirui
 armor: 3
-health: 3245
+health: 4245
 itemCapacity: 7000
 unitCapModifier: 18
 category: effect

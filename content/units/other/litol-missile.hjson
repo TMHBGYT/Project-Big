@@ -36,7 +36,6 @@ weapons: [
       type: ExplosionBulletType
       splashDamage: 45
       splashDamageRadius: 25
-      }
 	}
   } 
 ]

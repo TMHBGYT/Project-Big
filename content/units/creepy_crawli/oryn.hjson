@@ -21,7 +21,7 @@ weapons: [
     x: 9
     y: -2
     name: lipo-weapon
-    reload: 60
+    reload: 30
     rotate: false
     shootSound: missile
     mirror: true

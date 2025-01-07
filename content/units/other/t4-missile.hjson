@@ -64,6 +64,7 @@ weapons: [
       lifetime: 13
       height: 4
       width: 4
-	}
+    }
+   }
   } 
 ]

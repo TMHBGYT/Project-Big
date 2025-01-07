@@ -3,7 +3,7 @@ name: Galix
 description: A tier four Spider unit meant for attacks.Recommend using it in high numbers.Equiped with a very high velocity liquid sap launcher.
 health: 9750
 armor: 15
-speed: 0.2.7
+speed: 0.27
 flying: false
 legExtension: -2.6
 legMoveSpace: 1.6
